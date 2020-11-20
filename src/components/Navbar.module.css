@@ -1,0 +1,78 @@
+.Navbar {
+  margin: 2rem 0;
+}
+
+.Navbar h1 {
+  font-family: "Bad Script", cursive;
+  letter-spacing: 1px;
+}
+
+.NavDesk {
+  display: none;
+}
+
+.NavMob {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Navbar h1 {
+  font-size: 2.5rem;
+}
+
+.NavMob .icon div {
+  width: 2.5rem;
+  height: 1px;
+  background-color: black;
+  margin: 0.8rem;
+}
+
+@media screen and (min-width: 1080px) {
+  .NavMob {
+    display: none;
+  }
+
+  .NavDesk {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .NavDesk .container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .NavDesk .container h1 {
+    font-size: 3rem;
+  }
+
+  .NavDesk p {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+    /* font-family: "Bad Script", cursive; */
+    font-family: "Oswald", sans-serif;
+  }
+
+  .NavDesk .links {
+    width: 50%;
+    text-align: right;
+  }
+
+  .NavDesk .links ul {
+    list-style: none;
+    font-size: 3rem;
+    font-family: "Source Serif Pro", serif;
+    font-weight: 300;
+  }
+
+  .NavDesk .links li {
+    display: inline-block;
+    margin-left: 2rem;
+  }
+}

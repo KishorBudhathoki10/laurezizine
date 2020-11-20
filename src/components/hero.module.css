@@ -1,0 +1,154 @@
+.header {
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20rem;
+}
+
+.info {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Source Serif Pro", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.info__block {
+  margin-bottom: 2.5rem;
+}
+
+.info__block p {
+  line-height: 3.5rem;
+}
+
+.info p span {
+  display: block;
+}
+
+.lastinfo h5 {
+  font-size: 2.5rem;
+}
+
+.lastinfo p {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 100;
+  font-family: "Source Serif Pro", serif;
+  line-height: 2rem;
+}
+
+.laureImg {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.con {
+  height: 40vh;
+  display: none;
+}
+
+.image {
+  width: 100%;
+  filter: grayscale(100%);
+  min-width: 270px;
+}
+
+@media screen and (min-width: 640px) {
+  .header {
+    height: 100vh;
+  }
+
+  .info {
+    font-size: 4.4rem;
+  }
+
+  .lastinfo h5 {
+    font-size: 3rem;
+  }
+
+  .info__block {
+    margin-bottom: 2.4rem;
+  }
+
+  .info__block p {
+    line-height: 4.5rem;
+  }
+
+  .info p span {
+    display: block;
+  }
+
+  .lastinfo p {
+    line-height: 2rem;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .header {
+    flex-direction: row;
+    padding: 0;
+  }
+
+  .info {
+    font-size: 6rem;
+    padding-left: 3rem;
+  }
+
+  .lastinfo h5 {
+    font-size: 4rem;
+  }
+
+  .info__block {
+    margin-bottom: 4rem;
+  }
+
+  .info__block p {
+    line-height: 6rem;
+  }
+
+  .info p span {
+    display: block;
+  }
+
+  .lastinfo p {
+    line-height: 3rem;
+    font-size: 3rem;
+  }
+
+  .con {
+    display: block;
+  }
+}
+
+@media screen and (min-height: 1500px) {
+  .header {
+    flex-direction: row;
+    height: 50vh;
+  }
+
+  .header::after {
+    content: "";
+    clear: both;
+  }
+
+  .info {
+    font-size: 7rem;
+  }
+
+  .lastinfo p {
+    font-size: 3rem;
+  }
+
+  .con {
+    height: 22vh;
+  }
+}

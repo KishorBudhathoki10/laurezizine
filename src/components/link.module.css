@@ -1,0 +1,16 @@
+.link {
+  text-decoration: none;
+  color: #f29108;
+  font-size: 2rem;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 1080px) {
+  .link {
+    font-size: 3rem;
+  }
+}

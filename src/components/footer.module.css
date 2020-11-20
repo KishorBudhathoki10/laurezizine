@@ -1,0 +1,17 @@
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem 0;
+  font-size: 2rem;
+}
+
+.Footer h4 {
+  font-weight: 400;
+}
+
+.Footer a {
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+}
