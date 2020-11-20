@@ -4,7 +4,8 @@
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  padding-top: 20rem;
+  padding-top: 30rem;
+  margin-bottom: 30rem;
 }
 
 .info {
@@ -64,6 +65,7 @@
 @media screen and (min-width: 640px) {
   .header {
     height: 100vh;
+    margin-bottom: 0;
   }
 
   .info {
