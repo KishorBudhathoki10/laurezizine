@@ -1,9 +1,6 @@
 .worksContainer {
-  margin: 18rem auto 5rem auto;
+  margin: 18rem auto 0rem auto;
   text-align: center;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   font-family: "Source Serif Pro", serif;
 }
 
@@ -15,6 +12,10 @@
 .works article {
   width: 100%;
   text-align: center;
+  margin: 0 auto 5rem auto;
+}
+
+.works article:first-child {
   margin: 0 auto 10rem auto;
 }
 
@@ -73,5 +74,6 @@
 
   .works article {
     width: 45%;
+    margin: 0 auto 10rem auto;
   }
 }
