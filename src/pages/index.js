@@ -1,5 +1,4 @@
 import React from "react"
-// import Image from "gatsby-image"
 import BackgroundImage from "gatsby-background-image"
 
 import Layout from "../components/layout"
@@ -37,7 +36,7 @@ export default function Home({ data }) {
         </p>
       </Segment>
 
-      <Link url="/metodo" text="Mas sobre mi" />
+      <Link url="/bio" text="Mas sobre mi" />
 
       <BackgroundImage
         Tag={`div`}

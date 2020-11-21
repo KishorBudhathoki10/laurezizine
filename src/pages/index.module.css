@@ -37,3 +37,15 @@
     display: block;
   }
 }
+
+@media screen and (min-height: 1500px) {
+  .footer {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-height: 500px) and (orientation: landscape) {
+  .footer {
+    height: 120vh;
+  }
+}

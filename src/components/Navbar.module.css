@@ -1,10 +1,34 @@
 .Navbar {
-  margin: 2rem 0;
+  height: 11rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 999;
+  width: 90%;
+  background-color: #ffffff;
+  top: 0;
+  max-width: 1800px;
 }
 
 .Navbar h1 {
   font-family: "Bad Script", cursive;
   letter-spacing: 1px;
+}
+
+.activeLang {
+  font-weight: bolder;
+}
+
+ul {
+  list-style: none;
+  font-family: "Source Serif Pro", serif;
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+.hide {
+  display: none;
 }
 
 .NavDesk {
@@ -15,21 +39,92 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 .Navbar h1 {
   font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.NavMob .icon {
+  cursor: pointer;
+}
+
+.NavMob .icon:focus {
+  outline: none;
 }
 
 .NavMob .icon div {
-  width: 2.5rem;
+  width: 2.2rem;
   height: 1px;
-  background-color: black;
+  background-color: #1d1d1b;
   margin: 0.8rem;
+}
+
+.NavMob .crossIcon {
+  height: 3rem;
+}
+
+.NavMob .crossIcon:focus {
+  outline: none;
+}
+
+.crossIcon img {
+  height: 100%;
+  padding: 0.5rem;
+}
+
+.NavMobClose {
+  margin-top: 11rem;
+  position: fixed;
+  z-index: 9999;
+  background-color: white;
+  width: 100%;
+  height: calc(100vh - 11rem);
+  top: 0;
+  left: 0;
+  border-top: 1px solid #dedfdf;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.NavMobClose .links {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.NavMobClose .links ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.NavMobClose .links ul li {
+  border-bottom: 1px solid #dedfdf;
+  width: 100vw;
+  padding: 3rem;
+}
+
+.NavMobClose p {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.NavMobClose p span {
+  margin: 2rem;
 }
 
 @media screen and (min-width: 1080px) {
   .NavMob {
+    display: none;
+  }
+
+  .NavMobClose {
     display: none;
   }
 
@@ -57,18 +152,12 @@
     letter-spacing: 2px;
     /* font-family: "Bad Script", cursive; */
     font-family: "Oswald", sans-serif;
+    font-weight: lighter;
   }
 
   .NavDesk .links {
     width: 50%;
     text-align: right;
-  }
-
-  .NavDesk .links ul {
-    list-style: none;
-    font-size: 3rem;
-    font-family: "Source Serif Pro", serif;
-    font-weight: 300;
   }
 
   .NavDesk .links li {

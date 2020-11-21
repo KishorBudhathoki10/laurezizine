@@ -16,27 +16,27 @@ export default function Home({ data }) {
       <Hero />
 
       <Segment>
-        <h3>El vincle de la maternitat</h3>
+        <h3>Le lien de la maternité</h3>
         <p>
-          Quins valors té la relació amb els teus? Junts creareu la vostra
-          pròpia història, plena d'experiències meravelloses.
+          Quelles valeurs la relation a-t-elle avec la vôtre? Ensemble, vous
+          créerez votre propre histoire, pleine d'expériences merveilleuses.
         </p>
       </Segment>
 
-      <Link url="/cat/manifest" text="MANIFEST" />
+      <Link url="/fr/manifeste" text="MANIFESTE" />
 
       <Works />
 
-      <Link url="/cat/metode" text="SABER-NE MÉS" />
+      <Link url="/fr/methode" text="SAVOIR PLUS" />
 
       <Segment>
         <p>
-          “Sóc la Laure, terapeuta analítica. Fa deu anys vaig començar el
-          projecte d'ajudar a les dones a construir-se com a mares.”
+          “Je suis Laure, thérapeute analytique. Il y a dix ans, j'ai lancé le
+          projet pour aider les femmes à devenir mères.”
         </p>
       </Segment>
 
-      <Link url="/cat/bio" text="MÉS SOBRE MI" />
+      <Link url="/fr/bio" text="PLUS À PROPOS DE MOI" />
 
       <BackgroundImage
         Tag={`div`}
@@ -45,11 +45,11 @@ export default function Home({ data }) {
         backgroundColor={`#FFAE07`}
       >
         <h3>
-          Si tens ganes de saber-ne
-          <span>més, no dubtis </span>
-          <span>en trucar-me! </span>
-          <span className={classes.block}>t: 930 384 721</span>
-          <span className={classes.block}>m: 665 335 599</span>
+          Si vous voulez en savoir
+          <span>plus, n'hésitez pas à </span>
+          <span>m'appeler </span>
+          <span className={classes.block}>t: 930 384 721 </span>
+          <span className={classes.block}>m: 665 335 599 </span>
         </h3>
       </BackgroundImage>
     </Layout>

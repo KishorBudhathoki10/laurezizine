@@ -25,6 +25,82 @@ const query = graphql`
   }
 `
 
+const ES = {
+  greeting1: (
+    <p>
+      <span>Hola!</span>
+      <span>Sóy Laure</span>
+    </p>
+  ),
+  greeting2: (
+    <p>
+      <span>Bienvenida</span>
+      <span>a tu terapia</span>
+      <span>analítica</span>
+    </p>
+  ),
+  profession: (
+    <p>
+      <span>Terapeuta</span>
+      <span>Analitica</span>
+    </p>
+  ),
+}
+
+const CAT = {
+  greeting1: (
+    <p>
+      <span>Hola!</span>
+      <span>Sóc la Laure</span>
+    </p>
+  ),
+  greeting2: (
+    <p>
+      <span>Benvinguda a</span>
+      <span>la teva teràpia</span>
+      <span>analítica</span>
+    </p>
+  ),
+  profession: (
+    <p>
+      <span>Terapeuta</span>
+      <span>Analítica</span>
+    </p>
+  ),
+}
+
+const FR = {
+  greeting1: (
+    <p>
+      <span>Salut!</span>
+      <span>Je suis Laure</span>
+    </p>
+  ),
+  greeting2: (
+    <p>
+      <span>Bienvenue</span>
+      <span>à votre thérapie</span>
+      <span>analytique</span>
+    </p>
+  ),
+  profession: (
+    <p>
+      <span>Thérapeute</span>
+      <span>Analytique</span>
+    </p>
+  ),
+}
+
+const languageHandler = prop => {
+  if (window.location.pathname === "/cat") {
+    return CAT[prop]
+  } else if (window.location.pathname === "/fr") {
+    return FR[prop]
+  } else {
+    return ES[prop]
+  }
+}
+
 const Hero = () => {
   const data = useStaticQuery(query)
 
@@ -39,27 +115,17 @@ const Hero = () => {
     >
       <div className={classes.info}>
         <div className={classes.info__block}>
-          <p>
-            <span>Hola!</span>
-            <span>Sóy Laure</span>
-          </p>
+          {languageHandler("greeting1")}
         </div>
 
         <div className={classes.info__block}>
-          <p>
-            <span>Bienvenida</span>
-            <span>a tu terapia</span>
-            <span>analítica</span>
-          </p>
+          {languageHandler("greeting2")}
         </div>
 
         <div className={classes.lastinfo}>
           <h5>Laure Zizine</h5>
 
-          <p>
-            <span>Terapeuta</span>
-            <span>Analitica</span>
-          </p>
+          {languageHandler("profession")}
         </div>
       </div>
 
