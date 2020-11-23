@@ -1,34 +1,41 @@
 @font-face {
   font-family: "Tiempos Light";
   src: url("../fonts/TiemposHeadline-Light.otf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Tiempos Italic";
   src: url("../fonts/TiemposText-RegularItalic.otf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "SBK Regular";
   src: url("../fonts/SangBleuKingdom-Regular.otf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "SBK Light Italic";
   src: url("../fonts/SangBleuKingdom-LightItalic.otf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "SBK Light";
   src: url("../fonts/SangBleuKingdom-Light.otf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "BatonTurbo Regular";
   src: url("../fonts/BatonTurbo-Regular.otf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "BatonTurbo Medium";
   src: url("../fonts/BatonTurbo-Medium.otf");
+  font-display: swap;
 }
