@@ -21,13 +21,14 @@ const Navbar = () => {
 
     return (
       <Link to={path}>
-        <h1>Laure Zizine</h1>
+        <h1>
+          Laure <span>Zizine</span>
+        </h1>
       </Link>
     )
   }
 
-  const links = className => {
-    console.log(className)
+  const navLinks = className => {
     if (currentPath.includes("/fr")) {
       return (
         <div className={className}>
@@ -99,19 +100,21 @@ const Navbar = () => {
     )
   }
 
-  const createLangLinks = arr => {
+  const createLangLinks = (arr, seperator) => {
     // Array must always be in order of French, Catalan and Spanish
 
     return (
       <p>
-        <span>{createLink(arr[0], "FR")}</span>/
-        <span>{createLink(arr[1], "CAT")}</span>/
+        <span>{createLink(arr[0], "FR")}</span>
+        {seperator}
+        <span>{createLink(arr[1], "CAT")}</span>
+        {seperator}
         <span>{createLink(arr[2], "ES")}</span>
       </p>
     )
   }
 
-  const linkAccordingly = () => {
+  const linkAccordingly = (seperator = "") => {
     const manifest = ["/fr/manifeste", "/cat/manifest", "/manifesto"]
     const method = ["/fr/methode", "/cat/metode", "/metodo"]
     const bio = ["/fr/bio", "/cat/bio", "/bio"]
@@ -119,15 +122,15 @@ const Navbar = () => {
     const home = ["/fr", "/cat", "/"]
 
     if (manifest.includes(currentPath)) {
-      return createLangLinks(manifest)
+      return createLangLinks(manifest, seperator)
     } else if (method.includes(currentPath)) {
-      return createLangLinks(method)
+      return createLangLinks(method, seperator)
     } else if (bio.includes(currentPath)) {
-      return createLangLinks(bio)
+      return createLangLinks(bio, seperator)
     } else if (contact.includes(currentPath)) {
-      return createLangLinks(contact)
+      return createLangLinks(contact, seperator)
     } else if (home.includes(currentPath)) {
-      return createLangLinks(home)
+      return createLangLinks(home, seperator)
     }
   }
 
@@ -138,10 +141,10 @@ const Navbar = () => {
           <div className={classes.container}>
             <Title />
 
-            {linkAccordingly()}
+            {linkAccordingly("/")}
           </div>
 
-          {links(classes.links)}
+          {navLinks(classes.links)}
         </div>
 
         <div className={classes.NavMob}>
@@ -173,13 +176,9 @@ const Navbar = () => {
       </div>
 
       <div className={mobNavOpen ? classes.NavMobClose : classes.hide}>
-        {links(classes.links)}
+        {navLinks(classes.links)}
 
-        <p>
-          <span>{createLink("/fr", "FR")}</span>
-          <span>{createLink("/cat", "CAT")}</span>
-          <span>{createLink("/", "ES")}</span>
-        </p>
+        {linkAccordingly()}
       </div>
     </>
   )

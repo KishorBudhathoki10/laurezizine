@@ -1,21 +1,13 @@
 import React from "react"
-import BackgroundImage from "gatsby-background-image"
 import Image from "gatsby-image"
 import { useStaticQuery, graphql } from "gatsby"
 
 import classes from "./hero.module.css"
+import backgroundImage from "../images/backgroundMain.png"
 
 const query = graphql`
   {
-    image1: file(relativePath: { eq: "background.png" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-    }
-
-    image2: file(relativePath: { eq: "laure.png" }) {
+    profileImage: file(relativePath: { eq: "laure.png" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_withWebp
@@ -104,38 +96,44 @@ const languageHandler = prop => {
 const Hero = () => {
   const data = useStaticQuery(query)
 
-  const { image1, image2 } = data
+  const { profileImage } = data
 
   return (
-    <BackgroundImage
-      Tag={`div`}
-      fluid={image1.childImageSharp.fluid}
+    <div
       className={classes.header}
-      backgroundColor={`#FFAE07`}
+      style={{
+        backgroundImage: `url(${backgroundImage})`,
+        backgroundSize: "cover",
+      }}
     >
-      <div className={classes.info}>
-        <div className={classes.info__block}>
-          {languageHandler("greeting1")}
+      <div className={classes.headerContainer}>
+        <div className={classes.info}>
+          <div className={classes.info__block}>
+            {languageHandler("greeting1")}
+          </div>
+
+          <div className={classes.info__block}>
+            {languageHandler("greeting2")}
+          </div>
+
+          <div className={classes.lastinfo}>
+            <h5>Laure Zizine</h5>
+
+            {languageHandler("profession")}
+          </div>
         </div>
 
-        <div className={classes.info__block}>
-          {languageHandler("greeting2")}
-        </div>
-
-        <div className={classes.lastinfo}>
-          <h5>Laure Zizine</h5>
-
-          {languageHandler("profession")}
+        <div className={classes.laureImg}>
+          <div className={classes.con}></div>
+          <div className={classes.image}>
+            <Image
+              fluid={profileImage.childImageSharp.fluid}
+              alt="Laure's Image"
+            />
+          </div>
         </div>
       </div>
-
-      <div className={classes.laureImg}>
-        <div className={classes.con}></div>
-        <div className={classes.image}>
-          <Image fluid={image2.childImageSharp.fluid} alt="Laure's Image" />
-        </div>
-      </div>
-    </BackgroundImage>
+    </div>
   )
 }
 

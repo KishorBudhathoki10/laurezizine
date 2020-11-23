@@ -1,16 +1,17 @@
 .link {
   text-decoration: none;
   color: #f29108;
-  font-size: 2rem;
+  font-family: "BatonTurbo Medium", sans-serif;
+  font-size: 1.8rem;
   display: block;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 0.5rem;
-  font-weight: bold;
+  letter-spacing: 0.4rem;
 }
 
 @media screen and (min-width: 1080px) {
   .link {
-    font-size: 3rem;
+    font-size: 3.2rem;
+    letter-spacing: 0.6rem;
   }
 }

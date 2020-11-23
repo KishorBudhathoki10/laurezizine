@@ -1,22 +1,27 @@
 .header {
   height: 80vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30rem;
+  margin-bottom: 30rem;
+  background-color: #f7a815;
+}
+
+.headerContainer {
+  display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  padding-top: 30rem;
-  margin-bottom: 30rem;
 }
 
 .info {
   color: white;
-  font-size: 3rem;
+  font-size: 3.2rem;
   text-align: center;
-  font-family: "Source Serif Pro", serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  font-family: "SBK Regular", sans-serif;
+  margin-bottom: 0rem;
+  letter-spacing: -2px;
 }
 
 .info__block {
@@ -24,22 +29,25 @@
 }
 
 .info__block p {
-  line-height: 3.5rem;
+  line-height: 3.8rem;
 }
 
 .info p span {
   display: block;
 }
 
+.lastinfo {
+  letter-spacing: 0;
+}
+
 .lastinfo h5 {
-  font-size: 2.5rem;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
 }
 
 .lastinfo p {
-  font-size: 2rem;
-  font-style: italic;
-  font-weight: 100;
-  font-family: "Source Serif Pro", serif;
+  font-size: 1.8rem;
+  font-family: "SBK Light Italic", serif;
   line-height: 2rem;
 }
 
@@ -52,28 +60,29 @@
 }
 
 .con {
-  height: 40vh;
+  height: 32vh;
   display: none;
 }
 
 .image {
   width: 100%;
-  filter: grayscale(100%);
   min-width: 270px;
+  margin-top: 4rem;
 }
 
 @media screen and (min-width: 640px) {
   .header {
     height: 100vh;
-    margin-bottom: 0;
   }
 
   .info {
-    font-size: 4.4rem;
+    font-size: 4.2rem;
+    margin-bottom: 3rem;
   }
 
   .lastinfo h5 {
-    font-size: 3rem;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
   }
 
   .info__block {
@@ -81,7 +90,7 @@
   }
 
   .info__block p {
-    line-height: 4.5rem;
+    line-height: 4.2rem;
   }
 
   .info p span {
@@ -89,24 +98,38 @@
   }
 
   .lastinfo p {
-    line-height: 2rem;
-    font-size: 2rem;
+    line-height: 2.4rem;
+    font-size: 1.8rem;
+    letter-spacing: 0;
+  }
+
+  .laureImg {
+    width: 40rem;
   }
 }
 
 @media screen and (min-width: 1080px) {
   .header {
-    flex-direction: row;
     padding: 0;
+    margin-bottom: 0;
+  }
+
+  .headerContainer {
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
   }
 
   .info {
     font-size: 6rem;
-    padding-left: 3rem;
+    width: 47%;
+    letter-spacing: 0;
   }
 
   .lastinfo h5 {
     font-size: 4rem;
+    line-height: 4.8rem;
+    font-weight: lighter;
   }
 
   .info__block {
@@ -114,7 +137,7 @@
   }
 
   .info__block p {
-    line-height: 6rem;
+    line-height: 6.8rem;
   }
 
   .info p span {
@@ -122,38 +145,87 @@
   }
 
   .lastinfo p {
-    line-height: 3rem;
+    line-height: 3.2rem;
     font-size: 3rem;
   }
 
   .con {
     display: block;
   }
+
+  .laureImg {
+    width: 48rem;
+  }
+
+  .image {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .info {
+    font-size: 9rem;
+  }
+
+  .info__block p {
+    line-height: 10rem;
+  }
+
+  .lastinfo h5 {
+    font-size: 4.1rem;
+    line-height: 4.8rem;
+    font-weight: lighter;
+  }
+
+  .lastinfo p {
+    font-size: 3rem;
+    line-height: 3.4rem;
+  }
+
+  .laureImg {
+    width: 36%;
+  }
 }
 
 @media screen and (min-height: 1500px) {
   .header {
     flex-direction: row;
-    height: 50vh;
+    height: 80vh;
+    margin-bottom: 50rem;
   }
 
   .info {
-    font-size: 7rem;
+    font-size: 9rem;
+  }
+
+  .info__block p {
+    line-height: 10rem;
+  }
+
+  .lastinfo h5 {
+    font-size: 5rem;
+    line-height: 5.5rem;
+    font-weight: lighter;
   }
 
   .lastinfo p {
-    font-size: 3rem;
+    font-size: 4rem;
+    line-height: 4.5rem;
   }
 
   .con {
     height: 22vh;
+  }
+
+  .laureImg {
+    width: 37.98%;
   }
 }
 
 @media screen and (max-height: 500px) and (orientation: landscape) {
   .header {
     height: 150vh;
-    margin-bottom: 30rem;
+    margin-bottom: 37rem;
   }
 
   .info {

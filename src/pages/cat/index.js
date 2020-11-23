@@ -1,5 +1,6 @@
 import React from "react"
 import BackgroundImage from "gatsby-background-image"
+import { graphql } from "gatsby"
 
 import Layout from "../../components/layout"
 import classes from ".././index.module.css"
@@ -58,10 +59,10 @@ export default function Home({ data }) {
 
 export const query = graphql`
   {
-    file(relativePath: { eq: "background.png" }) {
+    file(relativePath: { eq: "home-bottom.png" }) {
       childImageSharp {
         fluid {
-          ...GatsbyImageSharpFluid_withWebp
+          ...GatsbyImageSharpFluid
         }
       }
     }
