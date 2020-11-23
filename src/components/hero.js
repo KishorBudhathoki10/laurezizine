@@ -1,5 +1,6 @@
 import React from "react"
 import Image from "gatsby-image"
+import BackgroundImage from "gatsby-background-image"
 import { useStaticQuery, graphql } from "gatsby"
 
 import classes from "./hero.module.css"
@@ -7,6 +8,14 @@ import backgroundImage from "../images/backgroundMain.png"
 
 const query = graphql`
   {
+    backgrdImg: file(relativePath: { eq: "backgroundMain.png" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+
     profileImage: file(relativePath: { eq: "laure.png" }) {
       childImageSharp {
         fluid {
@@ -98,16 +107,21 @@ const languageHandler = prop => {
 const Hero = () => {
   const data = useStaticQuery(query)
 
-  const { profileImage } = data
+  const { backgrdImg, profileImage } = data
 
   return (
-    <div
+    <BackgroundImage
+      Tag={`div`}
+      fluid={backgrdImg.childImageSharp.fluid}
+      className={classes.header}
+    >
+      {/* <div
       className={classes.header}
       style={{
         backgroundImage: `url(${backgroundImage})`,
         backgroundSize: "cover",
       }}
-    >
+    > */}
       <div className={classes.headerContainer}>
         <div className={classes.info}>
           <div className={classes.info__block}>
@@ -135,7 +149,8 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </div>
+      {/* </div> */}
+    </BackgroundImage>
   )
 }
 
