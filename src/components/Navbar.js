@@ -8,7 +8,8 @@ import crossIcon from "../images/cross.webp"
 const Navbar = () => {
   const [mobNavOpen, setMobNavOpen] = useState(false)
 
-  const currentPath = window.location.pathname
+  const currentPath =
+    typeof window !== "undefined" ? window.location.pathname : ""
 
   const Title = () => {
     let path = "/"

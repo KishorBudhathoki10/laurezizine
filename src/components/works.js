@@ -118,9 +118,11 @@ const FR = {
 }
 
 const languageHandler = prop => {
-  if (window.location.pathname === "/cat") {
+  const url = typeof window !== "undefined" ? window.location.pathname : ""
+
+  if (url === "/cat") {
     return CAT[prop]
-  } else if (window.location.pathname === "/fr") {
+  } else if (url === "/fr") {
     return FR[prop]
   } else {
     return ES[prop]
