@@ -1,7 +1,6 @@
 import React from "react"
 
 import classes from "./footer.module.css"
-import arrowUp from "../images/uparrow.png"
 
 const Footer = () => {
   return (

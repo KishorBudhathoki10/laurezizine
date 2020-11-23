@@ -1,21 +1,21 @@
 import React from "react"
 import Image from "gatsby-image"
-import BackgroundImage from "gatsby-background-image"
+// import BackgroundImage from "gatsby-background-image"
 import { useStaticQuery, graphql } from "gatsby"
 
 import classes from "./hero.module.css"
 import backgroundImage from "../images/backgroundMain.png"
 
+// backgrdImg: file(relativePath: { eq: "backgroundMain.png" }) {
+//   childImageSharp {
+//     fluid {
+//       ...GatsbyImageSharpFluid
+//     }
+//   }
+// }
+
 const query = graphql`
   {
-    backgrdImg: file(relativePath: { eq: "backgroundMain.png" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-
     profileImage: file(relativePath: { eq: "laure.png" }) {
       childImageSharp {
         fluid {
@@ -107,21 +107,23 @@ const languageHandler = prop => {
 const Hero = () => {
   const data = useStaticQuery(query)
 
-  const { backgrdImg, profileImage } = data
+  const { profileImage } = data
 
   return (
-    <BackgroundImage
-      Tag={`div`}
-      fluid={backgrdImg.childImageSharp.fluid}
-      className={classes.header}
-    >
-      {/* <div
+    // <BackgroundImage
+    //   Tag={`div`}
+    //   fluid={backgrdImg.childImageSharp.fluid}
+    //   className={classes.header}
+    // >
+    // </BackgroundImage>
+
+    <div
       className={classes.header}
       style={{
         backgroundImage: `url(${backgroundImage})`,
         backgroundSize: "cover",
       }}
-    > */}
+    >
       <div className={classes.headerContainer}>
         <div className={classes.info}>
           <div className={classes.info__block}>
@@ -149,8 +151,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      {/* </div> */}
-    </BackgroundImage>
+    </div>
   )
 }
 
