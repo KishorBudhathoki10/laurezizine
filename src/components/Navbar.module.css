@@ -115,7 +115,7 @@ ul {
 }
 
 .NavMobClose p {
-  margin-bottom: 15%;
+  margin-bottom: 14%;
   font-size: 1.8rem;
   font-weight: 300;
 }
@@ -178,5 +178,16 @@ ul {
 
   ul {
     font-size: 3.7rem;
+  }
+}
+
+@media screen and (max-height: 500px) and (orientation: landscape) {
+  .NavMobClose {
+    height: 100%;
+    position: absolute;
+  }
+
+  .NavMobClose p {
+    margin: 3rem auto;
   }
 }
