@@ -181,7 +181,7 @@ ul {
   }
 }
 
-@media screen and (max-height: 500px) and (orientation: landscape) {
+/* @media screen and (max-height: 500px) and (orientation: landscape) {
   .NavMobClose {
     height: 100%;
     position: absolute;
@@ -190,4 +190,4 @@ ul {
   .NavMobClose p {
     margin: 3rem auto;
   }
-}
+} */

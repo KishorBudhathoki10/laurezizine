@@ -1,41 +1,41 @@
 @font-face {
   font-family: "Tiempos Light";
-  src: url("../fonts/TiemposHeadline-Light.otf");
+  src: url("../fonts/TiemposHeadline-Light.woff2");
   font-display: swap;
 }
 
 @font-face {
   font-family: "Tiempos Italic";
-  src: url("../fonts/TiemposText-RegularItalic.otf");
+  src: url("../fonts/TiemposText-RegularItalic.woff2");
   font-display: swap;
 }
 
 @font-face {
   font-family: "SBK Regular";
-  src: url("../fonts/SangBleuKingdom-Regular.otf");
+  src: url("../fonts/SangBleuKingdom-Regular.woff2");
   font-display: swap;
 }
 
 @font-face {
   font-family: "SBK Light Italic";
-  src: url("../fonts/SangBleuKingdom-LightItalic.otf");
+  src: url("../fonts/SangBleuKingdom-LightItalic.woff2");
   font-display: swap;
 }
 
 @font-face {
   font-family: "SBK Light";
-  src: url("../fonts/SangBleuKingdom-Light.otf");
+  src: url("../fonts/SangBleuKingdom-Light.woff2");
   font-display: swap;
 }
 
 @font-face {
   font-family: "BatonTurbo Regular";
-  src: url("../fonts/BatonTurbo-Regular.otf");
+  src: url("../fonts/BatonTurbo-Regular.woff2");
   font-display: swap;
 }
 
 @font-face {
   font-family: "BatonTurbo Medium";
-  src: url("../fonts/BatonTurbo-Medium.otf");
+  src: url("../fonts/BatonTurbo-Medium.woff2");
   font-display: swap;
 }
