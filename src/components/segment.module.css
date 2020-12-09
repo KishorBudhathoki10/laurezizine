@@ -38,6 +38,7 @@
 
 @media screen and (min-width: 1080px) {
   .segment {
+    margin-top: 25rem;
     width: 85%;
   }
 

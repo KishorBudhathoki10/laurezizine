@@ -6,6 +6,8 @@
   padding-top: 33rem;
   margin-bottom: 33rem;
   background-color: #f7a815;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .headerContainer {

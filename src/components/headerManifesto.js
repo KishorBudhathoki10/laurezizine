@@ -1,5 +1,7 @@
 import React from "react"
-import backgroundImage from "../images/backgroundManifesto.png"
+// import backgroundImage from "../images/backgroundManifesto.png"
+import BackgroundImage from "gatsby-background-image"
+import { graphql, useStaticQuery } from "gatsby"
 
 import classes from "./headerManifesto.module.css"
 
@@ -82,12 +84,31 @@ const languageHandler = key => {
   }
 }
 
-const headerManifesto = () => {
+const query = graphql`
+  {
+    backgrdImg: file(relativePath: { eq: "backgroundManifesto.png" }) {
+      childImageSharp {
+        fixed(width: 2500) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+  }
+`
+
+const HeaderManifesto = () => {
+  const { backgrdImg } = useStaticQuery(query)
+
   return (
-    <div
+    <BackgroundImage
+      Tag={`div`}
+      fluid={backgrdImg.childImageSharp.fixed}
+      className={classes.header}
+    >
+      {/* <div
       className={classes.header}
       style={{ backgroundImage: `url(${backgroundImage})` }}
-    >
+    > */}
       <div className={classes.header_wrapper}>
         {languageHandler("header")}
 
@@ -96,8 +117,9 @@ const headerManifesto = () => {
           {languageHandler("content2")}
         </div>
       </div>
-    </div>
+      {/* </div> */}
+    </BackgroundImage>
   )
 }
 
-export default headerManifesto
+export default HeaderManifesto
