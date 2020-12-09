@@ -1,5 +1,5 @@
 import React from "react"
-import backgroundImage from "../images/backgroundMain.png"
+import backgroundImage from "../images/bgManifesto.png"
 
 import classes from "./headerManifesto.module.css"
 
