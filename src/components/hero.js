@@ -27,7 +27,7 @@ const query = graphql`
     backgrdImg: file(relativePath: { eq: "backgroundMain.png" }) {
       childImageSharp {
         fixed(width: 2500) {
-          ...GatsbyImageSharpFixed
+          ...GatsbyImageSharpFixed_withWebp
         }
       }
     }
