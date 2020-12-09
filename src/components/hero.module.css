@@ -226,7 +226,7 @@
 
 @media screen and (max-height: 500px) and (orientation: landscape) {
   .header {
-    height: 150vh;
+    height: 200vh;
     margin-bottom: 37rem;
   }
 

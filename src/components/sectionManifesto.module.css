@@ -1,0 +1,77 @@
+.section {
+  margin: 9rem auto 8rem auto;
+  text-align: center;
+}
+
+.image {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section p {
+  width: 85%;
+  margin: 2rem auto;
+  font-size: 1.6rem;
+  font-weight: lighter;
+}
+
+.section h4 {
+  font-weight: lighter;
+  font-family: "SBK Light", sans-serif;
+  font-size: 2.3rem;
+  line-height: 2.5rem;
+  width: 98%;
+  margin: 0 auto;
+  letter-spacing: -1px;
+}
+
+@media screen and (min-width: 600px) {
+  .section p {
+    font-size: 1.8rem;
+    width: 95%;
+  }
+
+  .section h4 {
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+    margin: 3rem auto;
+    letter-spacing: -2px;
+  }
+}
+
+@media screen and (min-width: 975px) {
+  .image {
+    width: 70%;
+  }
+
+  .section p {
+    font-size: 2rem;
+    width: 70%;
+  }
+
+  .section h4 {
+    font-size: 4.1rem;
+    line-height: 4.5rem;
+    margin: 5rem auto;
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .image {
+    width: 60%;
+  }
+
+  .section p {
+    font-size: 2.6rem;
+    width: 50%;
+    margin: 5rem auto;
+  }
+
+  .section h4 {
+    font-size: 5rem;
+    line-height: 5.4rem;
+    margin: 5rem auto;
+    width: 55%;
+  }
+}

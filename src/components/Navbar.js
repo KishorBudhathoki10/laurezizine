@@ -32,18 +32,18 @@ const Navbar = () => {
   const navLinks = className => {
     if (currentPath.includes("/fr")) {
       return (
-        <div className={className}>
+        <div className={className} activeClassName={classes.activeNavLink}>
           <ul>
-            <Link to="/fr/manifeste">
+            <Link to="/fr/manifeste" activeClassName={classes.activeNavLink}>
               <li>Manifeste</li>
             </Link>
-            <Link to="/fr/methode">
+            <Link to="/fr/methode" activeClassName={classes.activeNavLink}>
               <li>Méthode</li>
             </Link>
-            <Link to="/fr/bio">
+            <Link to="/fr/bio" activeClassName={classes.activeNavLink}>
               <li>Bio</li>
             </Link>
-            <Link to="/fr/contact">
+            <Link to="/fr/contact" activeClassName={classes.activeNavLink}>
               <li>Contact</li>
             </Link>
           </ul>
@@ -53,16 +53,16 @@ const Navbar = () => {
       return (
         <div className={className}>
           <ul>
-            <Link to="/cat/manifest">
+            <Link to="/cat/manifest" activeClassName={classes.activeNavLink}>
               <li>Manifest</li>
             </Link>
-            <Link to="/cat/metode">
+            <Link to="/cat/metode" activeClassName={classes.activeNavLink}>
               <li>Mètode</li>
             </Link>
-            <Link to="/cat/bio">
+            <Link to="/cat/bio" activeClassName={classes.activeNavLink}>
               <li>Bio</li>
             </Link>
-            <Link to="/cat/contact">
+            <Link to="/cat/contact" activeClassName={classes.activeNavLink}>
               <li>Contacte</li>
             </Link>
           </ul>
@@ -72,16 +72,16 @@ const Navbar = () => {
       return (
         <div className={className}>
           <ul>
-            <Link to="/manifesto">
+            <Link to="/manifesto" activeClassName={classes.activeNavLink}>
               <li>Manifesto</li>
             </Link>
-            <Link to="/metodo">
+            <Link to="/metodo" activeClassName={classes.activeNavLink}>
               <li>Método</li>
             </Link>
-            <Link to="/bio">
+            <Link to="/bio" activeClassName={classes.activeNavLink}>
               <li>Bio</li>
             </Link>
-            <Link to="/contact">
+            <Link to="/contact" activeClassName={classes.activeNavLink}>
               <li>Contacto</li>
             </Link>
           </ul>

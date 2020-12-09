@@ -3,7 +3,7 @@ import BackgroundImage from "gatsby-background-image"
 import { graphql } from "gatsby"
 
 import Layout from "../../components/layout"
-import classes from ".././index.module.css"
+import classes from "../../css/index.module.css"
 import Hero from "../../components/hero"
 import Segment from "../../components/segment"
 import Link from "../../components/link"
