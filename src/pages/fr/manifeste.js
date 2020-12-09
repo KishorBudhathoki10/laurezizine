@@ -3,7 +3,7 @@ import BackgroundImage from "gatsby-background-image"
 import { graphql, useStaticQuery, Link } from "gatsby"
 
 import Layout from "../../components/layout"
-import backgroundImage from "../../images/bgManifesto.png"
+// import backgroundImage from "../../images/bgManifesto.png"
 import classes from "../../css/manifesto.module.css"
 import SectionManifesto from "../../components/sectionManifesto"
 
@@ -55,7 +55,7 @@ const Manifeste = () => {
       <div className={classes.Manifesto}>
         <div
           className={classes.header}
-          style={{ backgroundImage: `url(${backgroundImage})` }}
+          // style={{ backgroundImage: `url(${backgroundImage})` }}
         >
           <div className={classes.header_wrapper}>
             <h2>
