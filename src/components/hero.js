@@ -92,15 +92,15 @@ const FR = {
   ),
 }
 
-const languageHandler = prop => {
+const languageHandler = key => {
   const url = typeof window !== "undefined" ? window.location.pathname : ""
 
   if (url === "/cat") {
-    return CAT[prop]
+    return CAT[key]
   } else if (url === "/fr") {
-    return FR[prop]
+    return FR[key]
   } else {
-    return ES[prop]
+    return ES[key]
   }
 }
 

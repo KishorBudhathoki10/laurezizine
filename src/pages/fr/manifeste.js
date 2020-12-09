@@ -3,9 +3,9 @@ import BackgroundImage from "gatsby-background-image"
 import { graphql, useStaticQuery, Link } from "gatsby"
 
 import Layout from "../../components/layout"
-import backgroundImage from "../../images/bgManifesto.png"
 import classes from "../../css/manifesto.module.css"
 import SectionManifesto from "../../components/sectionManifesto"
+import Header from "../../components/headerManifesto"
 
 export const query = graphql`
   {
@@ -53,30 +53,7 @@ const Manifeste = () => {
   return (
     <Layout>
       <div className={classes.Manifesto}>
-        <div
-          className={classes.header}
-          style={{ backgroundImage: `url(${backgroundImage})` }}
-        >
-          <div className={classes.header_wrapper}>
-            <h2>
-              Le Primer <span>Lien</span>
-            </h2>
-
-            <div className={classes.header_content}>
-              <div>
-                <p>Vous désirez avoir un enfant.</p>
-                <p>Vous êtes enceinte! Le bébé est là!</p>
-              </div>
-              <div>
-                <p>
-                  Ce sont des moments de bonheur. Mais ce sont aussi des
-                  périodes bouleversantes qui causent de la fatigue, parfois de
-                  l’angoisse et même la culpabilité.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Header />
 
         <div className={classes.article}>
           <p>
