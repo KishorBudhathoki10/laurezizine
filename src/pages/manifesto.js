@@ -1,55 +1,13 @@
 import React from "react"
-import BackgroundImage from "gatsby-background-image"
-import { graphql, useStaticQuery, Link } from "gatsby"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import classes from "../css/manifesto.module.css"
 import SectionManifesto from "../components/sectionManifesto"
 import Header from "../components/headerManifesto"
-
-export const query = graphql`
-  {
-    momChild: file(relativePath: { eq: "mumkidManifesto.png" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-    }
-
-    family: file(relativePath: { eq: "familyManifesto.png" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-    }
-
-    littleGirl: file(relativePath: { eq: "littlegirlManifesto.png" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-    }
-
-    bottomBackground: file(relativePath: { eq: "bottomManifesto.png" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-    }
-  }
-`
+import FooterManifesto from "../components/footerManifesto"
 
 const Manifesto = () => {
-  const { momChild, family, littleGirl, bottomBackground } = useStaticQuery(
-    query
-  )
-
-  console.log(family)
-
   return (
     <Layout>
       <div className={classes.Manifesto}>
@@ -69,7 +27,7 @@ const Manifesto = () => {
           </p>
         </div>
 
-        <SectionManifesto image={momChild} imageText="Mom Child Image">
+        <SectionManifesto article="article1">
           <p>
             Estamos ante uno de los retos más importantes de nuestra vida. El de
             iniciar una relación única con nuestro hijo. El de establecer una
@@ -90,7 +48,7 @@ const Manifesto = () => {
           </p>
         </SectionManifesto>
 
-        <SectionManifesto image={family} imageText="Family Image">
+        <SectionManifesto article="article2">
           <p>
             Te propongo acompañarte en esta reflexión mediante{" "}
             <Link to="/metodo" className={classes.blueText}>
@@ -117,7 +75,7 @@ const Manifesto = () => {
           </p>
         </SectionManifesto>
 
-        <SectionManifesto image={littleGirl} imageText="Little Girl Image">
+        <SectionManifesto article="article3">
           <p>
             Te ayudaré a reconocer lo que es esencial para ti y a tomar las
             decisiones que sientas correctas.
@@ -144,29 +102,7 @@ const Manifesto = () => {
           </p>
         </div>
 
-        <BackgroundImage
-          Tag={`div`}
-          fluid={bottomBackground.childImageSharp.fluid}
-          className={classes.footer}
-          backgroundColor={`#FFAE07`}
-        >
-          <div>
-            <h3>
-              Hablemos sin compromiso, te invito a hacer una primera cita
-              gratuita para conocernos.
-            </h3>
-
-            <h3>
-              Así decidirás tranquilamente si quieres que empecemos a caminar
-              juntas.
-            </h3>
-
-            <h3>
-              <span className={classes.block}>t: 930 384 721</span>
-              <span className={classes.block}>m: 665 335 599</span>
-            </h3>
-          </div>
-        </BackgroundImage>
+        <FooterManifesto />
       </div>
     </Layout>
   )

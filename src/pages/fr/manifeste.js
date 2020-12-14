@@ -1,55 +1,13 @@
 import React from "react"
-import BackgroundImage from "gatsby-background-image"
-import { graphql, useStaticQuery, Link } from "gatsby"
+import { Link } from "gatsby"
 
 import Layout from "../../components/layout"
 import classes from "../../css/manifesto.module.css"
 import SectionManifesto from "../../components/sectionManifesto"
 import Header from "../../components/headerManifesto"
-
-export const query = graphql`
-  {
-    momChild: file(relativePath: { eq: "mumkidManifesto.png" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-    }
-
-    family: file(relativePath: { eq: "familyManifesto.png" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-    }
-
-    littleGirl: file(relativePath: { eq: "littlegirlManifesto.png" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-    }
-
-    bottomBackground: file(relativePath: { eq: "bottomManifesto.png" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-    }
-  }
-`
+import FooterManifesto from "../../components/footerManifesto"
 
 const Manifeste = () => {
-  const { momChild, family, littleGirl, bottomBackground } = useStaticQuery(
-    query
-  )
-
-  console.log(family)
-
   return (
     <Layout>
       <div className={classes.Manifesto}>
@@ -69,7 +27,7 @@ const Manifeste = () => {
           </p>
         </div>
 
-        <SectionManifesto image={momChild} imageText="Mom Child Image">
+        <SectionManifesto article="article1">
           <p>
             La maternité est l’un des défis les plus importants de la vie d’une
             femme. Celui de commencer une merveilleuse aventure avec notre
@@ -90,7 +48,7 @@ const Manifeste = () => {
           </p>
         </SectionManifesto>
 
-        <SectionManifesto image={family} imageText="Family Image">
+        <SectionManifesto article="article2">
           <p>
             Je vous propose de vous accompagner dans cette réflexion grâce à{" "}
             <Link to="/fr/methode" className={classes.blueText}>
@@ -104,68 +62,49 @@ const Manifeste = () => {
           </p>
 
           <h4>
-            Un espai comprensiu, sense judici, on podràs expressar les teves
-            idees, els teus dubtes i les teves pors, i parlar sense tabús de la
-            dificultat de ser mare.
+            Un espace bienveillant, sans jugement, où vous pourrez exprimer vos
+            doutes, vos peurs et parler sans tabous de la difficulté d’être
+            mère.
           </h4>
 
           <p>
-            Mitjançant d'un treball d'introspecció, mirarem juntes el que ja has
-            viscut, per comprendre-ho, reconèixer-ho i afrontar-ho. Anar cap a
-            l'origen permet qüestionar-se i així canviar o mantenir maneres de
-            funcionament en la teva vida actual.
+            A travers un travail d’introspection, nous regarderons ensemble ce
+            que vous avez déjà vécu, pour le comprendre, le reconnaître et
+            l’affronter. Aller à l’origine permet la remise en question et ainsi
+            changer ou maintenir des modes de fonctionnements dans votre vie de
+            mère.
           </p>
         </SectionManifesto>
 
-        <SectionManifesto image={littleGirl} imageText="Little Girl Image">
+        <SectionManifesto article="article3">
           <p>
-            T'ajudaré a reconèixer el que és essencial per a tu i a prendre les
-            decisions que sentis correctes.
+            Je vous aiderai à reconnaître ce qui est essentiel pour vous et à
+            prendre les décisions qui vous paraissent justes.
           </p>
 
           <h4>
-            Un és actor de la seva pròpia vida. Jo t'ajudaré a donar-te els
-            mitjans per trobar-te i construir el teu lloc en la família.
+            Vous êtes acteur de votre vie. Je vous aiderai à vous donner les
+            moyens de vous trouver et de construire votre place dans la
+            dynamique familiale.
           </h4>
 
           <p>
-            La maternitat no és innata per a totes, la capacitat de
-            relacionar-nos amb el nostre bebè es construeix amb el temps. Veurem
-            néixer la teva consciència com a mare. El meu treball és
-            acompanyar-te en aquests moments plens de confusió i de bellesa.
+            La maternité n’est pas innée pour toutes, la capacité de se
+            connecter à notre bébé se construit avec le temps. Nous verrons
+            naître votre conscience en tant que mère. Mon travail est de vous
+            accompagner dans ce moment plein de confusion et de beauté.
           </p>
         </SectionManifesto>
 
         <div className={classes.article + " " + classes.lastArticle}>
           <p>
-            Ha nascut el teu fill.{" "}
-            <span className={classes.italic}>La mare que hi ha en tu</span>{" "}
-            <span className={classes.italic}>ha nascut amb ell.</span>
+            Votre enfant est né.{" "}
+            <span className={classes.italic}>La mère en vous</span>{" "}
+            <span className={classes.italic}>est née avec lui.</span>
           </p>
         </div>
 
-        <BackgroundImage
-          Tag={`div`}
-          fluid={bottomBackground.childImageSharp.fluid}
-          className={classes.footer}
-          backgroundColor={`#FFAE07`}
-        >
-          <div>
-            <h3>
-              Parlem sense compromís, et convido a establir una primera cita
-              gratuïta per conèixer-nos.
-            </h3>
-
-            <h3>
-              Decidiràs tranquil·lament si vols que comencem a caminar juntes.
-            </h3>
-
-            <h3>
-              <span className={classes.block}>t: 930 384 721</span>
-              <span className={classes.block}>m: 665 335 599</span>
-            </h3>
-          </div>
-        </BackgroundImage>
+        <FooterManifesto />
       </div>
     </Layout>
   )

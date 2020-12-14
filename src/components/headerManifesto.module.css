@@ -108,3 +108,17 @@
     line-height: 5.5rem;
   }
 }
+
+@media screen and (max-height: 500px) and (orientation: landscape) {
+  .header {
+    height: 200vh;
+  }
+
+  .info {
+    font-size: 3rem;
+  }
+
+  .info__block {
+    margin-bottom: 1.5rem;
+  }
+}

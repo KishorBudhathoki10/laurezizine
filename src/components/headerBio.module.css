@@ -1,0 +1,219 @@
+.HeaderBio {
+  height: 80vh;
+  position: relative;
+  margin-bottom: 25rem;
+}
+
+.header {
+  width: 100%;
+  height: 75vh;
+  background-color: #cad6e1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  letter-spacing: -1px;
+  margin-bottom: 9rem;
+}
+
+.header_wrapper {
+  width: 85%;
+  color: white;
+  margin-top: 7rem;
+}
+
+.header h2 {
+  text-align: center;
+  font-family: "SBK Regular", sans-serif;
+  font-size: 3rem;
+  line-height: 3.4rem;
+  font-weight: 400;
+}
+
+.header h2 span {
+  display: block;
+}
+
+.header h5 {
+  text-align: center;
+  font-family: "SBK Light Italic", sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 0;
+  margin-top: -0.7rem;
+}
+
+.header_content {
+  text-align: center;
+  font-size: 2.2rem;
+  font-family: "SBK Light", sans-serif;
+}
+
+.header_content div {
+  margin-top: 4rem;
+}
+
+.header_content div p {
+  line-height: 2.5rem;
+}
+.profileImgResponsive {
+  width: 85%;
+  max-width: 300px;
+  position: absolute;
+  bottom: -18rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.profileImg {
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  .HeaderBio {
+    margin-bottom: 40rem;
+  }
+
+  .header {
+    height: 88vh;
+    letter-spacing: -2px;
+  }
+
+  .header_wrapper {
+    width: 75%;
+  }
+
+  .header h2 {
+    font-size: 4.2rem;
+    line-height: 4.4rem;
+  }
+
+  .header h5 {
+    font-size: 2.5rem;
+    line-height: 3.78rem;
+    margin-top: -0.4rem;
+  }
+
+  .header_content {
+    font-size: 3.2rem;
+  }
+
+  .header_content div {
+    margin-top: 3rem;
+  }
+
+  .header_content div p {
+    line-height: 4.2rem;
+  }
+
+  .profileImgResponsive {
+    width: 55%;
+    max-width: 370px;
+    bottom: -25rem;
+  }
+}
+
+@media screen and (min-width: 975px) {
+  .HeaderBio {
+    margin-bottom: 60rem;
+  }
+
+  .header_wrapper {
+    width: 65%;
+    max-width: 850px;
+    margin-top: 8rem;
+  }
+
+  .header h2 {
+    font-size: 6rem;
+    line-height: 6.2rem;
+  }
+
+  .header h5 {
+    font-size: 3.2rem;
+    margin-top: -0.2rem;
+  }
+
+  .header_content {
+    font-size: 4rem;
+  }
+
+  .header_content div {
+    margin-top: 5rem;
+  }
+
+  .header_content div p {
+    line-height: 4.8rem;
+  }
+
+  .profileImgResponsive {
+    display: none;
+  }
+
+  .profileImg {
+    width: 75%;
+    max-width: 850px;
+    position: absolute;
+    bottom: -45rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .HeaderBio {
+    margin-bottom: 70rem;
+  }
+
+  .header_wrapper {
+    width: 55%;
+    max-width: 750px;
+    margin-top: 8rem;
+  }
+
+  .header h2 {
+    font-size: 7rem;
+    line-height: 7rem;
+  }
+
+  .header h5 {
+    font-size: 3.4rem;
+    margin-top: 0.5rem;
+  }
+
+  .header_content {
+    font-size: 5rem;
+  }
+
+  .header_content div p {
+    line-height: 5.5rem;
+  }
+
+  .profileImg {
+    bottom: -56rem;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .HeaderBio {
+    margin-bottom: 80rem;
+  }
+
+  .header {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-height: 500px) and (orientation: landscape) {
+  .HeaderBio {
+    margin-bottom: 35rem;
+    height: 180vh;
+  }
+
+  .header {
+    height: 165vh;
+  }
+}

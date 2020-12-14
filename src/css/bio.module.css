@@ -1,0 +1,66 @@
+.bioContent {
+  text-align: center;
+  width: 92%;
+  margin: 0 auto;
+}
+
+.bioContent p {
+  font-size: 1.3rem;
+  font-family: "SBK Regular", sans-serif;
+  margin-top: 2rem;
+}
+
+.info {
+  letter-spacing: 2px;
+}
+
+.orange {
+  color: #f29108;
+}
+
+.link {
+  text-decoration: none;
+  color: #f29108;
+  font-family: "BatonTurbo Regular", sans-serif;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  font-weight: bold;
+  margin: 4rem auto 7rem auto;
+  font-size: 1.3rem;
+}
+
+@media screen and (min-width: 600px) {
+  .bioContent p {
+    font-size: 1.6rem;
+    margin-top: 3.5rem;
+  }
+
+  .link {
+    font-size: 2rem;
+    margin: 8rem auto;
+  }
+}
+
+@media screen and (min-width: 975px) {
+  .bioContent {
+    width: 65%;
+    max-width: 720px;
+  }
+
+  .bioContent p {
+    font-size: 2.2rem;
+    margin-top: 3.5rem;
+  }
+
+  .link {
+    margin: 8rem auto 12rem auto;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+}
+
+@media screen and (min-width: 1800px) {
+}

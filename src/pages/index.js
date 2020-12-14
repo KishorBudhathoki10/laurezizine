@@ -1,17 +1,13 @@
 import React from "react"
-import BackgroundImage from "gatsby-background-image"
-import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
-import classes from "../css/index.module.css"
 import Hero from "../components/hero"
 import Segment from "../components/segment"
 import Link from "../components/link"
 import Works from "../components/works"
+import Contact from "../components/contact"
 
-export default function Home({ data }) {
-  const { file } = data
-
+export default function Home() {
   return (
     <Layout>
       <Hero />
@@ -39,32 +35,7 @@ export default function Home({ data }) {
 
       <Link url="/bio" text="Mas sobre mi" />
 
-      <BackgroundImage
-        Tag={`div`}
-        fluid={file.childImageSharp.fluid}
-        className={classes.footer}
-        backgroundColor={`#FFAE07`}
-      >
-        <h3>
-          Si tienes ganas de saber
-          <span>más no dudes</span>
-          <span>en llamarme!</span>
-          <span className={classes.block}>t: 930 384 721</span>
-          <span className={classes.block}>m: 665 335 599</span>
-        </h3>
-      </BackgroundImage>
+      <Contact />
     </Layout>
   )
 }
-
-export const query = graphql`
-  {
-    file(relativePath: { eq: "home-bottom.png" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-  }
-`
