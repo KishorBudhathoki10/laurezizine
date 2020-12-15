@@ -39,7 +39,7 @@ const SectionMetodo = ({ article, children }) => {
 
   return (
     <section className={classes.section}>
-      <div className={classes.image}>
+      <div className={classes.image} data-sal="fade" data-sal-delay="100">
         <Image fluid={image.childImageSharp.fluid} alt={imageText} />
       </div>
 

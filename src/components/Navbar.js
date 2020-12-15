@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react"
+import React, { useState, useEffect } from "react"
 import { Link } from "gatsby"
 
 import classes from "./Navbar.module.css"
@@ -12,7 +12,6 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      console.log(mobNavOpen)
       if (!mobNavOpen) {
         const currentScrollPos = window.pageYOffset
         const visibility = scrollY === 0 || scrollY > currentScrollPos
@@ -27,7 +26,7 @@ const Navbar = () => {
     return () => {
       window.removeEventListener("scroll", e => handleScroll())
     }
-  }, [scrollY])
+  }, [scrollY, mobNavOpen])
 
   let styleContainer = classes.Container
 

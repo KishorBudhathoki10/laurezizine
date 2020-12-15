@@ -13,8 +13,10 @@ export default function Home() {
       <Hero />
 
       <Segment>
-        <h3>El vincle de la maternitat</h3>
-        <p>
+        <h3 data-sal="fade" data-sal-delay="100">
+          El vincle de la maternitat
+        </h3>
+        <p data-sal="fade" data-sal-delay="100">
           Quins valors té la relació amb els teus? Junts creareu la vostra
           pròpia història, plena d'experiències meravelloses.
         </p>
@@ -27,7 +29,7 @@ export default function Home() {
       <Link url="/cat/metode" text="SABER-NE MÉS" />
 
       <Segment>
-        <p>
+        <p data-sal="fade" data-sal-delay="100">
           “Sóc la Laure, terapeuta analítica. Fa deu anys vaig començar el
           projecte d'ajudar a les dones a construir-se com a mares.”
         </p>

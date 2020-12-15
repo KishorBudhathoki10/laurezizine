@@ -12,16 +12,18 @@ const methode = () => {
       <HeaderMetodo />
 
       <Section article="article1">
-        <h4>La Teràpia Analítica</h4>
+        <h4 data-sal="fade" data-sal-delay="100">
+          La Teràpia Analítica
+        </h4>
 
-        <p>
+        <p data-sal="fade" data-sal-delay="100">
           La Teràpia Analítica és una teràpia de la paraula, que permet
           reflexionar, elaborar, qüestionar. No hi ha ni dolenta ni bona
           paraula. No hi ha cap judici. És un temps i un espai, que ens pertany
           i que ens permet tractar amb els nostres sofriments.
         </p>
 
-        <p>
+        <p data-sal="fade" data-sal-delay="100">
           Aquesta teràpia permet realitzar una feina d'introspecció,
           desenvolupar els nostres pensaments, associar idees lliurement i
           qüestionar-nos en un intercanvi «cara a cara», amb el terapeuta. El
@@ -30,7 +32,7 @@ const methode = () => {
           mateix.
         </p>
 
-        <p>
+        <p data-sal="fade" data-sal-delay="100">
           Ens demanen quin és l'origen dels nostres problemes per a comprendre
           els seus mecanismes inconscients i així les causes poden ser
           identificades, i sent analitzades, reconegudes, compreses, podem
@@ -41,11 +43,11 @@ const methode = () => {
       </Section>
 
       <Section article="article2">
-        <h4>
+        <h4 data-sal="fade" data-sal-delay="100">
           Orientar <span>la maternitat</span>
         </h4>
 
-        <p>
+        <p data-sal="fade" data-sal-delay="100">
           Gràcies a l'escolta, l'assessorament, la informació, l'orientació a la
           maternitat ajuda a reconèixer-se a si mateix en el seu paper de mare i
           en el seu paper en la família. És una orientació que permet
@@ -54,7 +56,7 @@ const methode = () => {
           atenció especial.
         </p>
 
-        <p>
+        <p data-sal="fade" data-sal-delay="100">
           L'orientació a la maternitat porta la persona a establir vincles entre
           la seva conducta materna i els records de la seva pròpia infància.
           Això permet convertir-se en la mare que desitges, i donar als seus

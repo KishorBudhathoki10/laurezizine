@@ -72,23 +72,25 @@ const FooterManifesto = () => {
   const { bottomBackground } = useStaticQuery(query)
 
   return (
-    <BackgroundImage
-      Tag={`div`}
-      fluid={bottomBackground.childImageSharp.fluid}
-      className={classes.footer}
-      backgroundColor={`#FFAE07`}
-    >
-      <div>
-        {languageHandler("content1")}
+    <div data-sal="fade" data-sal-delay="300">
+      <BackgroundImage
+        Tag={`div`}
+        fluid={bottomBackground.childImageSharp.fluid}
+        className={classes.footer}
+        backgroundColor={`#FFAE07`}
+      >
+        <div>
+          {languageHandler("content1")}
 
-        {languageHandler("content2")}
+          {languageHandler("content2")}
 
-        <h3>
-          <span className={classes.block}>t: 930 384 721</span>
-          <span className={classes.block}>m: 665 335 599</span>
-        </h3>
-      </div>
-    </BackgroundImage>
+          <h3>
+            <span className={classes.block}>t: 930 384 721</span>
+            <span className={classes.block}>m: 665 335 599</span>
+          </h3>
+        </div>
+      </BackgroundImage>
+    </div>
   )
 }
 

@@ -133,7 +133,11 @@ const Works = () => {
   const { image1, image2 } = useStaticQuery(query)
 
   return (
-    <section className={classes.worksContainer}>
+    <section
+      className={classes.worksContainer}
+      data-sal="fade"
+      data-sal-delay="100"
+    >
       <div className={classes.works}>
         <article>
           <div>

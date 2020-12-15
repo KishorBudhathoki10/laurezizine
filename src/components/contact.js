@@ -64,13 +64,17 @@ const HeaderContact = () => {
   const { backgrdImg } = useStaticQuery(query)
 
   return (
-    <BackgroundImage
-      Tag={`div`}
-      fluid={backgrdImg.childImageSharp.fixed}
-      className={classes.header}
-    >
-      <div className={classes.header_content}>{languageHandler("content")}</div>
-    </BackgroundImage>
+    <div data-sal="fade" data-sal-delay="100">
+      <BackgroundImage
+        Tag={`div`}
+        fluid={backgrdImg.childImageSharp.fixed}
+        className={classes.header}
+      >
+        <div className={classes.header_content}>
+          {languageHandler("content")}
+        </div>
+      </BackgroundImage>
+    </div>
   )
 }
 
