@@ -1,12 +1,39 @@
-import React from "react"
+import React, { useState, useEffect, useRef } from "react"
 import { Link } from "gatsby"
 
 import classes from "./Navbar.module.css"
-import { useState } from "react"
 import crossIcon from "../images/cross.webp"
 
 const Navbar = () => {
+  const [scrollY, setScrollY] = useState(0)
+  const [visible, setVisible] = useState(true)
+
   const [mobNavOpen, setMobNavOpen] = useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      console.log(mobNavOpen)
+      if (!mobNavOpen) {
+        const currentScrollPos = window.pageYOffset
+        const visibility = scrollY === 0 || scrollY > currentScrollPos
+
+        setScrollY(currentScrollPos)
+        setVisible(visibility)
+      }
+    }
+
+    window.addEventListener("scroll", e => handleScroll())
+
+    return () => {
+      window.removeEventListener("scroll", e => handleScroll())
+    }
+  }, [scrollY])
+
+  let styleContainer = classes.Container
+
+  if (!visible) {
+    styleContainer = classes.Container + " " + classes.closed
+  }
 
   const currentPath =
     typeof window !== "undefined" ? window.location.pathname : ""
@@ -136,7 +163,7 @@ const Navbar = () => {
   }
 
   return (
-    <>
+    <div className={styleContainer}>
       <div className={classes.Navbar} id="name">
         <div className={classes.NavDesk}>
           <div className={classes.container}>
@@ -181,7 +208,7 @@ const Navbar = () => {
 
         {linkAccordingly()}
       </div>
-    </>
+    </div>
   )
 }
 

@@ -1,16 +1,25 @@
 @import "../css/typography.css";
 
+.Container {
+  transition: top 0.5s;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.closed {
+  top: -9rem;
+}
+
 .Navbar {
   /* height: 11rem; */
   /* display: flex;
   align-items: center;
   justify-content: space-between; */
   padding: 3rem 0 2rem 0;
-  position: fixed;
-  z-index: 999;
   width: 92%;
   background-color: #ffffff;
-  top: 0;
   /* max-width: 1800px; */
 }
 
@@ -190,11 +199,29 @@ ul {
 
 @media screen and (max-height: 500px) and (orientation: landscape) {
   .NavMobClose {
-    height: 165vh;
-    position: absolute;
+    position: fixed;
+    left: 0;
+    height: 95vh;
+  }
+
+  .NavMobClose .links li {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .NavMobClose .links ul li {
+    border-bottom: 1px solid #dedfdf;
+    width: 100vw;
+    padding: 1.3rem;
   }
 
   .NavMobClose p {
-    margin: 3rem auto 7rem auto;
+    font-size: 1.4rem;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .NavMobClose p span {
+    margin: 1rem;
   }
 }

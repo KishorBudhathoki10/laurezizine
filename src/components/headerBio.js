@@ -87,7 +87,7 @@ const HeaderBio = () => {
   const { backgrdImg, profileImg, profileImgResponsive } = useStaticQuery(query)
 
   return (
-    <div class={classes.HeaderBio}>
+    <div className={classes.HeaderBio}>
       <BackgroundImage
         Tag={`div`}
         fluid={backgrdImg.childImageSharp.fixed}
