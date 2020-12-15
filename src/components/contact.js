@@ -64,7 +64,7 @@ const HeaderContact = () => {
   const { backgrdImg } = useStaticQuery(query)
 
   return (
-    <div data-sal="fade" data-sal-delay="100">
+    <div data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
       <BackgroundImage
         Tag={`div`}
         fluid={backgrdImg.childImageSharp.fixed}

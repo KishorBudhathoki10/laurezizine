@@ -13,14 +13,24 @@ const Manifesto = () => {
       <div className={classes.Manifesto}>
         <Header />
 
-        <div className={classes.article} data-sal="fade" data-sal-delay="100">
+        <div
+          className={classes.article}
+          data-sal="fade"
+          data-sal-delay="100"
+          data-sal-duration="2000"
+        >
           <p>
             Las emociones se exacerban, el cuerpo se transforma, y una puede
             sentirse superada.
           </p>
         </div>
 
-        <div className={classes.article} data-sal="fade" data-sal-delay="100">
+        <div
+          className={classes.article}
+          data-sal="fade"
+          data-sal-delay="100"
+          data-sal-duration="2000"
+        >
           <p>
             Nos enfrentamos a interrogantes íntimos y profundos, y también
             prácticos.
@@ -28,18 +38,18 @@ const Manifesto = () => {
         </div>
 
         <SectionManifesto article="article1">
-          <p data-sal="fade" data-sal-delay="100">
+          <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
             Estamos ante uno de los retos más importantes de nuestra vida. El de
             iniciar una relación única con nuestro hijo. El de establecer una
             nueva relación con nosotras mismas. El de tejer el lazo más íntimo
             que un ser humano tiene.
           </p>
 
-          <h4 data-sal="fade" data-sal-delay="100">
+          <h4 data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
             Para él, tu eres <span>el primer vínculo.</span>
           </h4>
 
-          <p data-sal="fade" data-sal-delay="100">
+          <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
             La creación de este vínculo requiere tiempo, dedicación y
             conocimiento. Necesitamos saber hacia dónde queremos ir, qué
             queremos construir con nuestro hijo, qué valores le queremos
@@ -49,7 +59,7 @@ const Manifesto = () => {
         </SectionManifesto>
 
         <SectionManifesto article="article2">
-          <p data-sal="fade" data-sal-delay="100">
+          <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
             Te propongo acompañarte en esta reflexión mediante{" "}
             <Link to="/metodo" className={classes.blueText}>
               la Terapia Analítica
@@ -61,13 +71,13 @@ const Manifesto = () => {
             . Quiero ofrecerte un lugar de confianza y de confidencialidad.
           </p>
 
-          <h4 data-sal="fade" data-sal-delay="100">
+          <h4 data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
             Un espacio comprensivo, sin juicio, donde podrás expresar tus ideas,
             tus dudas y tus miedos, y hablar sin tabúes de lo difícil que es ser
             madre.
           </h4>
 
-          <p data-sal="fade" data-sal-delay="100">
+          <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
             A través de un trabajo de introspección, miraremos juntas lo que ya
             has vivido, para comprenderlo, reconocerlo y afrontarlo. Ir hacia el
             origen permite cuestionarse y así cambiar o mantener modos de
@@ -76,7 +86,7 @@ const Manifesto = () => {
         </SectionManifesto>
 
         <SectionManifesto article="article3">
-          <p data-sal="fade" data-sal-delay="100">
+          <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
             Te ayudaré a reconocer lo que es esencial para ti y a tomar las
             decisiones que sientas correctas.
           </p>
@@ -86,7 +96,7 @@ const Manifesto = () => {
             construir tu lugar en la familia.
           </h4>
 
-          <p data-sal="fade" data-sal-delay="100">
+          <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
             La maternidad no es innata para todas, la capacidad de relacionarnos
             con nuestro bebé se construye con el tiempo. Vamos a ver nacer tu
             conciencia como madre. Mi trabajo consistirá en acompañarte en estos
@@ -98,6 +108,7 @@ const Manifesto = () => {
           className={classes.article + " " + classes.lastArticle}
           data-sal="fade"
           data-sal-delay="100"
+          data-sal-duration="2000"
         >
           <p>
             Ha nacido tu hijo.{" "}

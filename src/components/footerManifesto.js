@@ -72,7 +72,7 @@ const FooterManifesto = () => {
   const { bottomBackground } = useStaticQuery(query)
 
   return (
-    <div data-sal="fade" data-sal-delay="300">
+    <div data-sal="fade" data-sal-delay="300" data-sal-duration="2000">
       <BackgroundImage
         Tag={`div`}
         fluid={bottomBackground.childImageSharp.fluid}

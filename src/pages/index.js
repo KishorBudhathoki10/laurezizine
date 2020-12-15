@@ -13,10 +13,10 @@ export default function Home() {
       <Hero />
 
       <Segment>
-        <h3 data-sal="fade" data-sal-delay="100">
+        <h3 data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
           El vínculo de la maternidad
         </h3>
-        <p data-sal="fade" data-sal-delay="100">
+        <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
           Que valores tiene la relación con los tuyos? Juntos vais a crear
           vuestra propia historia, llena de experiencias maravillosas.
         </p>
@@ -29,7 +29,7 @@ export default function Home() {
       <Link url="/metodo" text="SABER MÁS" />
 
       <Segment>
-        <p data-sal="fade" data-sal-delay="100">
+        <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
           “Soy Laure, terapeuta analítica. Hace diez años inicié el proyecto de
           ayudar a las mujeres a construirse como madres.”
         </p>
