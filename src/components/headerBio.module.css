@@ -163,7 +163,41 @@
   }
 }
 
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1280px) {
+  .HeaderBio {
+    margin-bottom: 70rem;
+  }
+
+  .header_wrapper {
+    width: 55%;
+    max-width: 750px;
+    margin-top: 8rem;
+  }
+
+  .header h2 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  .header h5 {
+    font-size: 2.2rem;
+    margin-top: 0.5rem;
+  }
+
+  .header_content {
+    font-size: 3rem;
+  }
+
+  .header_content div p {
+    line-height: 5.5rem;
+  }
+
+  .profileImg {
+    bottom: -56rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
   .HeaderBio {
     margin-bottom: 70rem;
   }

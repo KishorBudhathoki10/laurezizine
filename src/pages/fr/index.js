@@ -17,8 +17,9 @@ export default function Home() {
           Le lien de la maternité
         </h3>
         <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
-          Quelles valeurs la relation a-t-elle avec la vôtre? Ensemble, vous
-          créerez votre propre histoire, pleine d'expériences merveilleuses.
+          Quelles valeurs ont pour vous vos relations avec les votres? Ensemble,
+          vous créerez votre propre histoire, pleine d'expériences
+          merveilleuses.
         </p>
       </Segment>
 

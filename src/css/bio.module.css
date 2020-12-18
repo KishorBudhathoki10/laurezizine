@@ -47,7 +47,23 @@
   }
 }
 
-@media screen and (min-width: 975px) {
+@media screen and (min-width: 1280px) {
+  .bioContent {
+    width: 65%;
+    max-width: 720px;
+  }
+
+  .bioContent p {
+    font-size: 1.6rem;
+    margin-top: 3.5rem;
+  }
+
+  .link {
+    margin: 8rem auto 12rem auto;
+  }
+}
+
+@media screen and (min-width: 1400px) {
   .bioContent {
     width: 65%;
     max-width: 720px;
@@ -61,9 +77,6 @@
   .link {
     margin: 8rem auto 12rem auto;
   }
-}
-
-@media screen and (min-width: 1250px) {
 }
 
 @media screen and (min-width: 1800px) {
