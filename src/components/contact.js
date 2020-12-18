@@ -8,9 +8,9 @@ const ES = {
   content: (
     <h3>
       Si tienes ganas de saber más no dudes
-      <span> en llamarme! </span>
-      <span className={classes.block}>t: 930 384 721</span>
-      <span className={classes.block}>m: 665 335 599</span>
+      <span> en contactarme! </span>
+      <span className={classes.block}>mob: 665 335 599</span>
+      <span className={classes.block}>Email: info@laurezizine.com</span>
     </h3>
   ),
 }
@@ -19,9 +19,9 @@ const CAT = {
   content: (
     <h3>
       Si tens ganes de saber-ne més, no dubtis
-      <span> en trucar-me! </span>
-      <span className={classes.block}>t: 930 384 721</span>
-      <span className={classes.block}>m: 665 335 599</span>
+      <span> en contactar-me! </span>
+      <span className={classes.block}>mob: 665 335 599</span>
+      <span className={classes.block}>Email: info@laurezizine.com</span>
     </h3>
   ),
 }
@@ -30,8 +30,8 @@ const FR = {
   content: (
     <h3>
       Si vous voulez en savoir plus, n'hésitez pas à<span> m'appeler </span>
-      <span className={classes.block}>t: 930 384 721 </span>
-      <span className={classes.block}>m: 665 335 599 </span>
+      <span className={classes.block}>mob: 665 335 599</span>
+      <span className={classes.block}>Email: info@laurezizine.com</span>
     </h3>
   ),
 }

@@ -20,8 +20,8 @@ const Manifeste = () => {
           data-sal-duration="2000"
         >
           <p>
-            Les émotions sont exacerbées, le corps se transforme, et on peut se
-            sentir dépassé.
+            Les émotions sont exacerbées, le corps se transforme, le couple est
+            mis à l’épreuve et on peut se sentir dépassé.
           </p>
         </div>
 
@@ -32,8 +32,8 @@ const Manifeste = () => {
           data-sal-duration="2000"
         >
           <p>
-            Nous sommes confrontés à des questions intimes et profondes, mais
-            aussi pratiques.
+            Nous sommes confrontées à des interrogations intimes et profondes,
+            mais aussi d’ordre pratiques.
           </p>
         </div>
 
@@ -41,12 +41,13 @@ const Manifeste = () => {
           <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
             La maternité est l’un des défis les plus importants de la vie d’une
             femme. Celui de commencer une merveilleuse aventure avec notre
-            enfant. Celui de porter un nouveau regard sur nous-mêmes. Celui de
-            tisser la relation la plus intime que l’on puisse avoir.
+            enfant. Celui de porter un nouveau regard sur nous-mêmes ainsi que
+            sur notre partenaire. Celui de tisser la relation la plus intime que
+            l’on puisse avoir.
           </p>
 
           <h4 data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
-            Car pour lui, <span>vous êtes son tout premier lien.</span>
+            Car pour votre enfant, <span>vous êtes son tout premier lien.</span>
           </h4>
 
           <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">

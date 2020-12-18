@@ -23,25 +23,32 @@ const bio = () => {
 
         <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
           Chloé es la mayor, y el pequeño, Tom. La experiencia está siendo
-          transformadora, y ha nacido en mí el deseo de profundizar en la
-          dinámica que se produce en el vínculo entre la madre y el hijo.
+          transformadora. Ha nacido en mí el deseo de profundizar en el estrecho
+          vinculo que se produce entre madre e hijo.
         </p>
 
         <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
           Así que he vuelto a un recorrido que empezó en París durante siete
-          años de psicoanálisis lacaniano, y que he continuado con una formación
-          en el Espacio Psicoanalítico de Barcelona durante cinco años más.
+          años de psicoanálisis lacaniano. He decidido continuar a profundizar
+          el aprendizaje de la teoría de la psicoanálisis gracias a una
+          formación (Curso de introducción al psicoanálisis I y II, Seminarios
+          de Aperturas, Practicas, Grupo terapéutico) en el Espacio
+          Psicoanalítico de Barcelona durante cinco años más.
         </p>
 
         <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
-          Además he realizado un curso de Puericultura y he trabajado durante 3
-          años con niños pequeños como profesora en la guardería Linus.
+          Para cumplir mis intereses en funciones mas practicas he realizado un
+          curso de Puericultura que me ha permitido conocer muy de cerca la
+          relación de los pequeños entre si y también su relación con los
+          adultos. He trabajado durante 3 años con niños pequeños en la
+          guardería Linus.
         </p>
 
         <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
           Mediante estas dos facetas de mi recorrido he creado un espacio
-          terapéutico. Para dialogar, con calidez y en confianza, sobre las
-          problemáticas que encuentran las mujeres que son madres.
+          terapéutico. Para dialogar, con calidez y en confianza destinado a
+          resolver las problemáticas con las que se deben enfrentar las mujeres
+          que son madres.
         </p>
 
         <Link to="/contact" className={classes.link}>

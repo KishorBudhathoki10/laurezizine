@@ -19,9 +19,8 @@ const Manifest = () => {
         data-sal-duration="2000"
       >
         <p>
-          Les emocions s'exacerben, el cos es transforma, i una pot sentir-se
-          superada. Ens enfrontem a interrogants íntims i profunds, i també
-          pràctics.
+          Les emocions s'exacerben, el cos es transforma, la parella se sotmet a
+          una nova incògnita i una pot sentir-se superada.
         </p>
       </div>
 
@@ -31,19 +30,22 @@ const Manifest = () => {
         data-sal-delay="100"
         data-sal-duration="2000"
       >
-        <p>Estem davant d'interrogants íntims i profunds, i també pràctics.</p>
+        <p>
+          Ens enfrontem a interrogants íntims i profunds, i a la inquietud de
+          resoldre problemes pràctics.
+        </p>
       </div>
 
       <SectionManifesto article="article1">
         <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
           Estem davant d’un dels reptes més importants de la nostra vida. El
-          d'iniciar una relació meravellosa amb el nostre fill. El d'establir
-          una nova relació amb nosaltres mateixes. El de teixir el llaç més
-          íntim que un ésser humà pot arribar a tenir.
+          d'iniciar una relació meravellosa amb el nostre fill, també amb la
+          nostra parella i sobretot amb nosaltres mateixa. El de teixir el llaç
+          més íntim que un ésser humà pot arribar a tenir.
         </p>
 
         <h4 data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
-          Per a ell, tu ets <span>el primer vincle.</span>
+          Per al teu fill, tu ets <span>el primer vincle.</span>
         </h4>
 
         <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
@@ -84,7 +86,7 @@ const Manifest = () => {
       <SectionManifesto article="article3">
         <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
           T'ajudaré a reconèixer el que és essencial per a tu i a prendre les
-          decisions que sentis correctes.
+          decisions que consideris correctes.
         </p>
 
         <h4 data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
@@ -93,10 +95,11 @@ const Manifest = () => {
         </h4>
 
         <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
-          La maternitat no és innata per a totes, la capacitat de relacionar-nos
-          amb el nostre bebè es construeix amb el temps. Veurem néixer la teva
-          consciència com a mare. El meu treball és acompanyar-te en aquests
-          moments plens de confusió i de bellesa.
+          La maternitat no és un instint innat per a totes les dones, la
+          capacitat de relacionar-nos amb el nostre bebè es construeix amb el
+          temps. Veurem néixer la teva consciència com a mare. El meu treball és
+          acompanyar-te en aquests moments plens de confusió i de bellesa al
+          mateix temps.
         </p>
       </SectionManifesto>
 

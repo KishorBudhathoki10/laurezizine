@@ -21,7 +21,7 @@ const ES = {
     <div>
       <p>
         Son momentos llenos de felicidad. Pero también son tiempos perturbadores
-        que causan cansancio, y a veces hasta angustia o culpa…
+        que causan cansancio, y a veces angustia e incluso sensación de culpa.
       </p>
     </div>
   ),
@@ -42,8 +42,8 @@ const CAT = {
   content2: (
     <div>
       <p>
-        És un moment de joia. Però també és un moment pertorbador que sol ésser
-        motiu de cansament, i a vegades d’angoixa i fins i tot de culpa…
+        Son moments de joia. Però també són temps pertorbadors que causen
+        cansament, i a vegades angoixa i fins i tot sensació de culpa.
       </p>
     </div>
   ),

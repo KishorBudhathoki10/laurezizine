@@ -22,26 +22,33 @@ const bio = () => {
         </p>
 
         <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
-          Chloé, que es la gran, i el petit, Tom. L'experiència està sent molt
-          enriquidora, i ha nascut en mi el desig d'aprofundir en la dinàmica
-          que es produeix en el vincle entre la mare i el fill.
+          Chloé és la major, i el petit, Tom. L'experiència està sent molt
+          transformadora. Ha nascut en mi el desig d'aprofundir en l'estret
+          vincle que es produeix entre mare i fill.
         </p>
 
         <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
           Així que he tornat a un recorregut que va començar a París durant set
-          anys de psicoanàlisi lacaniana, i que he continuat amb una formació a
-          l’Espacio Psicoanalítico de Barcelona durant cinc anys més.
+          anys de psicoanàlisi Lacaniana. He decidit continuar profunditzant
+          l'aprenentatge de la teoria de la psicoanàlisi gràcies a una formació
+          (Curs d'introducció a la psicoanàlisi I i II, Seminaris d'Apertures,
+          Practiques, Grup terapèutic) en l'Espai Psicoanalític de Barcelona
+          durant cinc anys més.
         </p>
 
         <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
-          A més vaig realitzar un curs de puericultura, i vaig treballar amb
-          nens petits a la llars d’infant Linus durant tres anys.
+          Per a complir els meus interessos en funcions mes practiques he
+          realitzat un curs de Puericultura que m'ha permès conèixer molt de
+          prop la relació dels petits entre si i també la seva relació amb els
+          adults. He treballat durant 3 anys amb nens petits en la guarderia
+          Linus.
         </p>
 
         <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
           Gràcies a aquestes dues facetes del meu recorregut he decidit crear un
-          espai terapèutic per a dialogar, càlid i de confiança destinat a les
-          problemàtiques que troben les mares de nens petits.
+          espai terapèutic per a dialogar, càlid i de confiança destinat a
+          resoldre les problemàtiques amb les quals s'han d'enfrontar les dones
+          que són mares.
         </p>
 
         <Link to="/cat/contact" className={classes.link}>

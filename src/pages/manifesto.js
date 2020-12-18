@@ -20,8 +20,8 @@ const Manifesto = () => {
           data-sal-duration="2000"
         >
           <p>
-            Las emociones se exacerban, el cuerpo se transforma, y una puede
-            sentirse superada.
+            Las emociones se intensifican, el cuerpo se transforma, la pareja se
+            somete a una nueva incógnita y una puede sentirse superada.
           </p>
         </div>
 
@@ -32,28 +32,28 @@ const Manifesto = () => {
           data-sal-duration="2000"
         >
           <p>
-            Nos enfrentamos a interrogantes íntimos y profundos, y también
-            prácticos.
+            Nos enfrentamos a interrogantes íntimos y profundos, y a la
+            inquietud de resolver problemas prácticos.
           </p>
         </div>
 
         <SectionManifesto article="article1">
           <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
-            Estamos ante uno de los retos más importantes de nuestra vida. El de
-            iniciar una relación única con nuestro hijo. El de establecer una
-            nueva relación con nosotras mismas. El de tejer el lazo más íntimo
-            que un ser humano tiene.
+            Nos enfrentamos a uno de los retos más importantes de nuestra vida.
+            El de iniciar una relación maravillosa con nuestro hijo, también con
+            nuestra pareja y sobre todo con nosotras misma. El de tejer el lazo
+            más íntimo que un ser humano tiene.
           </p>
 
           <h4 data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
-            Para él, tu eres <span>el primer vínculo.</span>
+            Para tu hijo, tu eres <span>el primer vínculo.</span>
           </h4>
 
           <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
             La creación de este vínculo requiere tiempo, dedicación y
             conocimiento. Necesitamos saber hacia dónde queremos ir, qué
-            queremos construir con nuestro hijo, qué valores le queremos
-            transmitir. Juntos creareis vuestra propia historia, llena de
+            queremos construir con nuestro hijo, qué valores les queremos
+            transmitir. Juntos vais a crear vuestra propia historia, llena de
             experiencias maravillosas.
           </p>
         </SectionManifesto>
@@ -88,19 +88,20 @@ const Manifesto = () => {
         <SectionManifesto article="article3">
           <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
             Te ayudaré a reconocer lo que es esencial para ti y a tomar las
-            decisiones que sientas correctas.
+            decisiones que consideres correctas.
           </p>
 
           <h4 data-sal="fade" data-sal-delay="100">
-            Uno es actor de su vida. Yo te ayudaré a darte los medios para
-            construir tu lugar en la familia.
+            Uno es actor de su propia vida. Yo te ayudaré a darte los medios
+            para encontrarte y construir tu lugar en la familia.
           </h4>
 
           <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
-            La maternidad no es innata para todas, la capacidad de relacionarnos
-            con nuestro bebé se construye con el tiempo. Vamos a ver nacer tu
-            conciencia como madre. Mi trabajo consistirá en acompañarte en estos
-            momentos llenos de confusión y de belleza.
+            La maternidad no es un instinto innato para todas las mujeres, la
+            capacidad de relacionarnos con nuestro bebé se construye con el
+            tiempo. Vamos a ver nacer tu conciencia como madre. Mi trabajo
+            consistirá en acompañarte en estos momentos llenos de confusión y de
+            belleza al mismo tiempo.
           </p>
         </SectionManifesto>
 

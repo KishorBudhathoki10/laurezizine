@@ -81,7 +81,7 @@ const CAT = {
 const FR = {
   greeting1: (
     <p>
-      <span>Salut!</span>
+      <span>Bonjour!</span>
       <span>Je suis Laure</span>
     </p>
   ),

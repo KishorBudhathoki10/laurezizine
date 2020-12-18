@@ -13,55 +13,53 @@ const methode = () => {
 
       <Section article="article1">
         <h4 data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
-          La Teràpia Analítica
+          La Thérapie Analytique
         </h4>
 
         <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
-          La Teràpia Analítica és una teràpia de la paraula, que permet
-          reflexionar, elaborar, qüestionar. No hi ha ni dolenta ni bona
-          paraula. No hi ha cap judici. És un temps i un espai, que ens pertany
-          i que ens permet tractar amb els nostres sofriments.
+          C’est une thérapie dite de la parole, qui permet de réfléchir,
+          d’élaborer, de remettre en question. Il n’y a ni mauvaise, ni bonne
+          parole. Il n’y a aucun jugement. C’est un temps, un espace, qui
+          n’appartient qu’à soi et qui permet de libérer ses souffrances.
         </p>
 
         <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
-          Aquesta teràpia permet realitzar una feina d'introspecció,
-          desenvolupar els nostres pensaments, associar idees lliurement i
-          qüestionar-nos en un intercanvi «cara a cara», amb el terapeuta. El
-          fet d'expressar tot el que tens al cap, sense moderació, permet
-          progressar en l'exploració de la teva psique i el coneixement de tu
-          mateix.
+          Cette thérapie permet de faire un travail d’introspection, de
+          développer ses pensées, d’associer librement et de se remettre en
+          question lors d’un échange en « face à face », avec le thérapeute. Le
+          fait d’exprimer tout ce que l’on a en tête, sans retenue, permet de
+          progresser dans l’exploration de sa psyché et la connaissance de soi.
         </p>
 
         <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
-          Ens demanen quin és l'origen dels nostres problemes per a comprendre
-          els seus mecanismes inconscients i així les causes poden ser
-          identificades, i sent analitzades, reconegudes, compreses, podem
-          llavors canviar unes certes maneres de funcionament i disminuir una
-          angoixa. Aquesta comprensió té com a objectiu la desaparició dels seus
-          problemes, així la situació pot ser transformada i la vida canviada.
+          Nous nous interrogeons sur l’origine de nos problèmes pour en
+          comprendre les mécanismes inconscients et ainsi les causes peuvent
+          être identifiées, et étant analysées, reconnues, comprises, nous
+          pouvons alors changer certains modes de fonctionnements et diminuer
+          une angoisse. Cette compréhension à pour but la disparition de ses
+          problèmes, ainsi la situation peut être transformée et la vie changée.
         </p>
       </Section>
 
       <Section article="article2">
         <h4 data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
-          Orientar <span>la maternitat</span>
+          L’orientation <span>à la maternité</span>
         </h4>
 
         <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
-          Gràcies a l'escolta, l'assessorament, la informació, l'orientació a la
-          maternitat ajuda a reconèixer-se a si mateix en el seu paper de mare i
-          en el seu paper en la família. És una orientació que permet
-          desenvolupar una millor qualitat de la funció maternal, valorant les
-          pròpies competències de la mare. Cada història és única i mereix una
-          atenció especial.
+          Grâce à l’écoute, le conseil, l’information, l’orientation à la
+          maternité aide à se reconnaître soi-même dans son rôle de mère et dans
+          sa place de parent. C’est une guidance qui permet de développer une
+          meilleure qualité de la fonction maternelle en mettant en valeur les
+          propres compétences de la mère. Chaque histoire est unique et mérite
+          une attention particulière.
         </p>
 
         <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
-          L'orientació a la maternitat porta la persona a establir vincles entre
-          la seva conducta materna i els records de la seva pròpia infància.
-          Això permet convertir-se en la mare que desitges, i donar als seus
-          fills els valors que has triat, i viure així la seva maternitat de
-          manera conscient.
+          L’orientation à la maternité amène la personne à faire des liens entre
+          ses conduites parentales et sa propre enfance. Cela permet de devenir
+          la mère que l’on souhaite, et donner à ses enfants les valeurs qu’on a
+          choisies, et vivre ainsi sa maternité de manière consciente.
         </p>
       </Section>
 

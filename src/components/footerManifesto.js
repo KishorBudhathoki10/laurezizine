@@ -85,8 +85,8 @@ const FooterManifesto = () => {
           {languageHandler("content2")}
 
           <h3>
-            <span className={classes.block}>t: 930 384 721</span>
-            <span className={classes.block}>m: 665 335 599</span>
+            <span className={classes.block}>Mob: 665 335 599</span>
+            <span className={classes.block}>Email: info@laurezizine.com</span>
           </h3>
         </div>
       </BackgroundImage>

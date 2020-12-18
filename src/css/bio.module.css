@@ -18,6 +18,10 @@
   color: #f29108;
 }
 
+.capitalize {
+  text-transform: uppercase;
+}
+
 .link {
   text-decoration: none;
   color: #f29108;

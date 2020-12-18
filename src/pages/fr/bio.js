@@ -17,7 +17,9 @@ const bio = () => {
           data-sal-delay="150"
           data-sal-duration="2000"
         >
-          <span className={classes.orange}>JE SUIS LA MÈRE</span>
+          <span className={classes.orange + " " + classes.capitalize}>
+            Je suis la mère de deux enfants merveilleux.
+          </span>
         </p>
 
         <p data-sal="fade" data-sal-delay="150" data-sal-duration="2000">
@@ -28,21 +30,24 @@ const bio = () => {
 
         <p data-sal="fade" data-sal-delay="150" data-sal-duration="2000">
           Je suis donc revenue à un parcours psychanalytique commencé à Paris
-          durant sept ans de psychanalyse lacanienne, et que j’ai poursuivi avec
-          une formation à l’Espacio Psicoanalitico de Barcelona pendant encore
-          cinq ans.
+          durant sept ans de psychanalyse lacanienne, et j’ai continué à
+          approfondir l’apprentissage de la théorie de la psychanalyse grâce à
+          une formation (Cours d’introduction à la psychanalyse I et II,
+          Séminaires d’Ouvertures, Pratiques, Groupe thérapeutique) à l’Espace
+          Psychanalytique de Barcelone pendant cinq années supplémentaires.
         </p>
 
         <p data-sal="fade" data-sal-delay="150" data-sal-duration="2000">
-          Pour y parvenir, j’ai suivi un cours de puériculture, et j’ai
-          travaillé avec de jeunes enfants à la garderie Linus pendant trois
-          ans.
+          Aussi, j’ai suivi un cours de Puériculture qui m’a permis de connaître
+          de très près la relation des petits entre eux et aussi leur relation
+          avec les adultes. J’ai travaillé avec de jeunes enfants à la crèche
+          Linus pendant trois ans.
         </p>
 
         <p data-sal="fade" data-sal-delay="150" data-sal-duration="2000">
           Grâce à ces deux facettes de mon parcours, j’ai décidé de créer un
           espace thérapeutique de dialogue, chaleureux et de confiance destiné
-          aux problématiques que rencontrent les mères de jeunes enfants.
+          aux problématiques que rencontrent les mères.
         </p>
 
         <Link to="/fr/contact" className={classes.link}>
