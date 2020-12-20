@@ -1,3 +1,5 @@
+@import "../css/typography.css";
+
 .header {
   height: 105vh;
   max-height: 60rem;

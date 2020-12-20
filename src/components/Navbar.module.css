@@ -103,34 +103,23 @@ ul {
   top: 0;
   left: 0;
   border-top: 1px solid #dedfdf;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
 }
 
 .NavMobClose .links {
   text-align: center;
 }
 
-.NavMobClose .links ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
 .NavMobClose .links ul li {
   border-bottom: 1px solid #dedfdf;
-  width: 100vw;
   padding: 3.5rem;
   font-size: 2.4rem;
 }
 
 .NavMobClose p {
-  margin-bottom: 8%;
   font-size: 1.8rem;
   font-weight: 300;
+  text-align: center;
+  margin-top: 4rem;
 }
 
 .NavMobClose p span {
@@ -208,6 +197,7 @@ ul {
     position: fixed;
     left: 0;
     height: 95vh;
+    scroll-snap-stop: true;
   }
 
   .NavMobClose .links li {
@@ -223,8 +213,6 @@ ul {
 
   .NavMobClose p {
     font-size: 1.4rem;
-    position: absolute;
-    bottom: 15px;
   }
 
   .NavMobClose p span {
