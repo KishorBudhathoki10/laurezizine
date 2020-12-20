@@ -31,8 +31,8 @@
   text-transform: uppercase;
   letter-spacing: 0.4rem;
   font-weight: bold;
-  margin: 4rem auto 7rem auto;
-  font-size: 1.3rem;
+  margin: 4rem auto 8.5rem auto;
+  font-size: 1.6rem;
 }
 
 @media screen and (min-width: 600px) {

@@ -1,23 +1,23 @@
 .segment {
-  margin: 15rem auto 3rem auto;
+  margin: 12rem auto 3rem auto;
   text-align: center;
   width: 98%;
   max-width: 1200px;
 }
 
 .segment h3 {
-  font-size: 2.5rem;
+  font-size: 2.1rem;
   font-family: "SBK Light Italic", sans-serif;
   font-weight: lighter;
-  border-bottom: 2px solid black;
+  text-decoration: underline;
   display: inline-block;
   margin-bottom: 2rem;
 }
 
 .segment p {
   font-family: "SBK Light", sans-serif;
-  font-size: 2.8rem;
-  line-height: 3.26rem;
+  font-size: 2.5rem;
+  line-height: 3rem;
 }
 
 @media screen and (min-width: 640px) {

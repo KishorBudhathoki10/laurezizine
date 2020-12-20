@@ -1,5 +1,5 @@
 .section {
-  margin: 9rem auto 8rem auto;
+  margin-top: 8rem;
   text-align: center;
 }
 
@@ -9,16 +9,16 @@
 }
 
 .section p {
-  width: 85%;
+  width: 88%;
   margin: 2rem auto;
-  font-size: 1.6rem;
+  font-size: 1.55rem;
   font-weight: lighter;
 }
 
 .section h4 {
   font-weight: lighter;
   font-family: "SBK Light", sans-serif;
-  font-size: 2.3rem;
+  font-size: 2.2rem;
   line-height: 2.5rem;
   width: 98%;
   margin: 0 auto;

@@ -1,28 +1,28 @@
 .worksContainer {
-  margin: 18rem auto 0rem auto;
+  margin: 12rem auto 0rem auto;
   text-align: center;
 }
 
 .works {
-  width: 85%;
+  width: 95%;
   margin: 0 auto;
 }
 
 .works article {
   width: 100%;
   text-align: center;
-  margin: 0 auto 5rem auto;
+  margin: 0 auto 3.5rem auto;
 }
 
 .works article:first-child {
-  margin: 0 auto 10rem auto;
+  margin: 0 auto 5.5rem auto;
 }
 
 .works h2 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: 300;
-  line-height: 2.8rem;
-  margin: 2rem auto;
+  line-height: 2.5rem;
+  margin: 1.8rem auto 0.5rem auto;
   font-family: "SBK Light", sans-serif;
 }
 
@@ -31,9 +31,12 @@
 }
 
 .works p {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   text-align: center;
   font-family: "SBK Regular", sans-serif;
+  width: 88%;
+  margin: 0 auto;
+  line-height: 1.9rem;
 }
 
 @media screen and (min-width: 640px) {

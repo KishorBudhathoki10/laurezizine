@@ -1,12 +1,14 @@
 .HeaderBio {
-  height: 80vh;
+  height: 110vh;
+  max-height: 61rem;
   position: relative;
   margin-bottom: 25rem;
 }
 
 .header {
   width: 100%;
-  height: 75vh;
+  height: 105vh;
+  max-height: 58rem;
   background-color: #cad6e1;
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,22 +17,22 @@
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  letter-spacing: -1px;
   margin-bottom: 9rem;
 }
 
 .header_wrapper {
-  width: 85%;
+  width: 90%;
   color: white;
-  margin-top: 7rem;
+  margin-top: 31%;
 }
 
 .header h2 {
   text-align: center;
   font-family: "SBK Regular", sans-serif;
-  font-size: 3rem;
-  line-height: 3.4rem;
+  font-size: 2.9rem;
+  line-height: 3rem;
   font-weight: 400;
+  letter-spacing: -1px;
 }
 
 .header h2 span {
@@ -42,7 +44,7 @@
   font-family: "SBK Light Italic", sans-serif;
   font-size: 1.6rem;
   letter-spacing: 0;
-  margin-top: -0.7rem;
+  margin-top: -0.4rem;
 }
 
 .header_content {
@@ -57,10 +59,11 @@
 
 .header_content div p {
   line-height: 2.5rem;
+  letter-spacing: -1px;
 }
 .profileImgResponsive {
-  width: 85%;
-  max-width: 300px;
+  width: 90%;
+  max-width: 330px;
   position: absolute;
   bottom: -18rem;
   left: 50%;
@@ -74,11 +77,12 @@
 @media screen and (min-width: 600px) {
   .HeaderBio {
     margin-bottom: 40rem;
+    max-height: none;
   }
 
   .header {
     height: 88vh;
-    letter-spacing: -2px;
+    max-height: none;
   }
 
   .header_wrapper {
@@ -88,12 +92,14 @@
   .header h2 {
     font-size: 4.2rem;
     line-height: 4.4rem;
+    letter-spacing: -2px;
   }
 
   .header h5 {
     font-size: 2.5rem;
     line-height: 3.78rem;
     margin-top: -0.4rem;
+    letter-spacing: -1px;
   }
 
   .header_content {
@@ -106,6 +112,7 @@
 
   .header_content div p {
     line-height: 4.2rem;
+    letter-spacing: -2px;
   }
 
   .profileImgResponsive {
@@ -163,33 +170,42 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1100px) and (min-height: 600px) {
   .HeaderBio {
-    margin-bottom: 70rem;
+    height: 90vh;
+  }
+
+  .header {
+    height: 105vh;
+    margin-bottom: 9rem;
   }
 
   .header_wrapper {
     width: 55%;
     max-width: 750px;
-    margin-top: 8rem;
+    margin-top: 12%;
   }
 
   .header h2 {
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: 6rem;
+    line-height: 5.5rem;
   }
 
   .header h5 {
-    font-size: 2.2rem;
+    font-size: 3.5rem;
     margin-top: 0.5rem;
   }
 
   .header_content {
-    font-size: 3rem;
+    font-size: 3.9rem;
+  }
+
+  .header_content div {
+    margin-top: 6rem;
   }
 
   .header_content div p {
-    line-height: 5.5rem;
+    line-height: 4.2rem;
   }
 
   .profileImg {
@@ -200,12 +216,17 @@
 @media screen and (min-width: 1400px) {
   .HeaderBio {
     margin-bottom: 70rem;
+    height: 80vh;
+  }
+
+  .header {
+    height: 91vh;
   }
 
   .header_wrapper {
     width: 55%;
     max-width: 750px;
-    margin-top: 8rem;
+    margin-top: 7%;
   }
 
   .header h2 {

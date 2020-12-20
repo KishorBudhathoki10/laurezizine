@@ -14,7 +14,7 @@ const Navbar = () => {
     const handleScroll = () => {
       if (!mobNavOpen) {
         const currentScrollPos = window.pageYOffset
-        const visibility = scrollY === 0 || scrollY > currentScrollPos
+        const visibility = scrollY <= 0 || scrollY > currentScrollPos
 
         setScrollY(currentScrollPos)
         setVisible(visibility)

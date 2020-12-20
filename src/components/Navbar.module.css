@@ -17,8 +17,8 @@
   /* display: flex;
   align-items: center;
   justify-content: space-between; */
-  padding: 3rem 0 2rem 0;
-  width: 92%;
+  padding: 2.5rem 0;
+  width: 92.3%;
   background-color: #ffffff;
   /* max-width: 1800px; */
 }
@@ -26,7 +26,7 @@
 .Navbar h1 {
   font-family: "Tiempos Light", sans-serif;
   font-weight: lighter;
-  font-size: 2.8rem;
+  font-size: 2.7rem;
   cursor: pointer;
 }
 
@@ -47,7 +47,7 @@ ul {
   list-style: none;
   font-family: "Tiempos Light", sans-serif;
   font-weight: 300;
-  font-size: 2.8rem;
+  font-size: 2.7rem;
 }
 
 .hide {
@@ -94,12 +94,12 @@ ul {
 }
 
 .NavMobClose {
-  margin-top: 8rem;
+  margin-top: 7.5rem;
   position: fixed;
   z-index: 9999;
   background-color: white;
   width: 100%;
-  height: calc(100vh - 8rem);
+  height: calc(100vh - 7rem);
   top: 0;
   left: 0;
   border-top: 1px solid #dedfdf;
@@ -111,7 +111,6 @@ ul {
 
 .NavMobClose .links {
   text-align: center;
-  font-size: 3rem;
 }
 
 .NavMobClose .links ul {
@@ -125,10 +124,11 @@ ul {
   border-bottom: 1px solid #dedfdf;
   width: 100vw;
   padding: 3.5rem;
+  font-size: 2.4rem;
 }
 
 .NavMobClose p {
-  margin-bottom: 14%;
+  margin-bottom: 8%;
   font-size: 1.8rem;
   font-weight: 300;
 }
@@ -139,13 +139,19 @@ ul {
 
 @media screen and (min-width: 640px) {
   .Navbar {
+    padding: 2.7rem 0 1.8rem 0;
     width: 90%;
+  }
+
+  .NavMobClose {
+    margin-top: 7.5rem;
+    height: calc(100vh - 8rem);
   }
 }
 
 @media screen and (min-width: 1080px) {
   .Navbar {
-    width: 92%;
+    width: 92.3%;
   }
 
   .NavMob {
@@ -218,7 +224,7 @@ ul {
   .NavMobClose p {
     font-size: 1.4rem;
     position: absolute;
-    bottom: 0;
+    bottom: 15px;
   }
 
   .NavMobClose p span {

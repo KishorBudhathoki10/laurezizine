@@ -23,7 +23,7 @@ a {
 }
 
 .main {
-  margin-top: 10rem;
+  margin-top: 7rem;
 }
 
 @media screen and (min-width: 640px) {
@@ -34,6 +34,6 @@ a {
 
 @media screen and (min-width: 1080px) {
   body {
-    width: 92%;
+    width: 92.3%;
   }
 }

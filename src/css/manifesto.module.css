@@ -11,7 +11,7 @@
 }
 
 .article p {
-  font-size: 2.3rem;
+  font-size: 2.2rem;
   line-height: 2.5rem;
 }
 
@@ -42,6 +42,10 @@
 
 .italic {
   font-family: "SBK Light Italic", sans-serif;
+}
+
+.lastArticle {
+  margin: 6rem auto 14.5rem auto;
 }
 
 @media screen and (min-width: 600px) {

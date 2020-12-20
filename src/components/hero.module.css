@@ -1,10 +1,11 @@
 .header {
-  height: 80vh;
+  height: 105vh;
+  max-height: 60rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 33rem;
-  margin-bottom: 33rem;
+  padding-top: 20rem;
+  margin-bottom: 25rem;
   background-color: #f7a815;
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,19 +20,19 @@
 
 .info {
   color: white;
-  font-size: 3.2rem;
+  font-size: 2.8rem;
   text-align: center;
   font-family: "SBK Regular", sans-serif;
   margin-bottom: 0rem;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
 }
 
 .info__block {
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.8rem;
 }
 
 .info__block p {
-  line-height: 3.8rem;
+  line-height: 3.4rem;
 }
 
 .info p span {
@@ -43,12 +44,12 @@
 }
 
 .lastinfo h5 {
-  font-size: 2.4rem;
+  font-size: 2rem;
   line-height: 3.2rem;
 }
 
 .lastinfo p {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-family: "SBK Light Italic", serif;
   line-height: 2rem;
 }
@@ -77,24 +78,27 @@
     height: 100vh;
     padding-top: 30rem;
     margin-bottom: 30rem;
+    height: 80vh;
+    max-height: none;
   }
 
   .info {
-    font-size: 4.2rem;
+    font-size: 3.7rem;
     margin-bottom: 3rem;
+    letter-spacing: -2px;
+  }
+
+  .info__block p {
+    line-height: 3.8rem;
   }
 
   .lastinfo h5 {
-    font-size: 2.4rem;
+    font-size: 2rem;
     line-height: 3.2rem;
   }
 
   .info__block {
     margin-bottom: 2.4rem;
-  }
-
-  .info__block p {
-    line-height: 4.2rem;
   }
 
   .info p span {
@@ -103,19 +107,20 @@
 
   .lastinfo p {
     line-height: 2.4rem;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     letter-spacing: 0;
   }
 
   .laureImg {
-    width: 40rem;
+    width: 38rem;
   }
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1050px) and (min-height: 500px) {
   .header {
     padding: 0;
     margin-bottom: 0;
+    height: 105vh;
   }
 
   .headerContainer {
@@ -125,9 +130,68 @@
   }
 
   .info {
-    font-size: 6rem;
+    font-size: 5.2rem;
     width: 47%;
     letter-spacing: 0;
+  }
+
+  .info__block {
+    margin-bottom: 4rem;
+  }
+
+  .info__block p {
+    line-height: 5.7rem;
+  }
+
+  .lastinfo h5 {
+    font-size: 3.8rem;
+    line-height: 4rem;
+    font-weight: lighter;
+  }
+
+  .info p span {
+    display: block;
+  }
+
+  .lastinfo p {
+    line-height: 3rem;
+    font-size: 2.7rem;
+  }
+
+  .con {
+    display: block;
+  }
+
+  .laureImg {
+    width: 48rem;
+  }
+
+  .image {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .header {
+    padding: 0;
+    margin-bottom: 0;
+    height: 100vh;
+  }
+
+  .headerContainer {
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .info {
+    font-size: 5.2rem;
+    width: 47%;
+    letter-spacing: 0;
+  }
+
+  .info__block p {
+    line-height: 5.5rem;
   }
 
   .lastinfo h5 {
@@ -140,17 +204,13 @@
     margin-bottom: 4rem;
   }
 
-  .info__block p {
-    line-height: 6.8rem;
-  }
-
   .info p span {
     display: block;
   }
 
   .lastinfo p {
-    line-height: 3.2rem;
-    font-size: 3rem;
+    line-height: 2.8rem;
+    font-size: 2.5rem;
   }
 
   .con {
