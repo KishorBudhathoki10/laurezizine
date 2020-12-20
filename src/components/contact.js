@@ -6,33 +6,39 @@ import classes from "./contact.module.css"
 
 const ES = {
   content: (
-    <h3>
-      Si tienes ganas de saber más no dudes
-      <span> en contactarme! </span>
-      <span className={classes.block}>Mob: 665 335 599</span>
-      <span className={classes.block}>Email: info@laurezizine.com</span>
-    </h3>
+    <div>
+      <p className={classes.changing}>
+        Si tienes ganas de saber más no dudes
+        <span> en contactarme! </span>
+      </p>
+      <p>Mob: 665 335 599</p>
+      <p>Email: info@laurezizine.com</p>
+    </div>
   ),
 }
 
 const CAT = {
   content: (
-    <h3>
-      Si tens ganes de saber-ne més, no dubtis
-      <span> en contactar-me! </span>
-      <span className={classes.block}>Mob: 665 335 599</span>
-      <span className={classes.block}>Email: info@laurezizine.com</span>
-    </h3>
+    <div>
+      <p className={classes.changing}>
+        Si tens ganes de saber-ne més, no dubtis
+        <span> en contactar-me! </span>
+      </p>
+      <p>Mob: 665 335 599</p>
+      <p>Email: info@laurezizine.com</p>
+    </div>
   ),
 }
 
 const FR = {
   content: (
-    <h3>
-      Si vous voulez en savoir plus, n'hésitez pas à<span> m'appeler </span>
-      <span className={classes.block}>Mob: 665 335 599</span>
-      <span className={classes.block}>Email: info@laurezizine.com</span>
-    </h3>
+    <div>
+      <p className={classes.changing}>
+        Si vous voulez en savoir plus, n'hésitez pas à<span> m'appeler </span>
+      </p>
+      <p>Mob: 665 335 599</p>
+      <p>Email: info@laurezizine.com</p>
+    </div>
   ),
 }
 

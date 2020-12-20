@@ -43,7 +43,7 @@
   color: #6a6b6a;
 }
 
-ul {
+.NavDesk ul {
   list-style: none;
   font-family: "Tiempos Light", sans-serif;
   font-weight: 300;
@@ -138,9 +138,9 @@ ul {
   }
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1024px) {
   .Navbar {
-    width: 92.3%;
+    width: 96%;
   }
 
   .NavMob {
@@ -165,8 +165,9 @@ ul {
     align-items: center;
   }
 
-  .NavDesk .container h1 {
-    font-size: 3.3rem;
+  .NavDesk .container h1,
+  .NavDesk ul {
+    font-size: 2.5rem;
   }
 
   .NavDesk p {
@@ -185,10 +186,6 @@ ul {
   .NavDesk .links li {
     display: inline-block;
     margin-left: 2rem;
-  }
-
-  ul {
-    font-size: 3.3rem;
   }
 }
 

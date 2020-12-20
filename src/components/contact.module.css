@@ -10,13 +10,16 @@
   text-align: center;
 }
 
-.header h3 {
+.header p {
   font-size: 2.4rem;
   font-family: "SBK Light", sans-serif;
-  width: 90%;
   line-height: 2.8rem;
   font-weight: lighter;
   margin: 0 auto;
+}
+
+.header .changing {
+  width: 90%;
 }
 
 .block {
@@ -24,20 +27,26 @@
 }
 
 @media screen and (min-width: 640px) {
-  .header h3 {
-    font-size: 4rem;
+  .header p {
+    font-size: 3.5rem;
     font-weight: lighter;
-    width: 80%;
     line-height: 4.8rem;
+  }
+
+  .header .changing {
+    width: 80%;
   }
 }
 
-@media screen and (min-width: 1080px) {
-  .header h3 {
+@media screen and (min-width: 1400px) {
+  .header p {
     font-size: 6.5rem;
-    width: 75%;
     line-height: 7rem;
     max-width: 110rem;
+  }
+
+  .header .changing {
+    width: 75%;
   }
 
   .header span {

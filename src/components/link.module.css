@@ -11,7 +11,13 @@
   letter-spacing: 0.4rem;
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1024px) {
+  .link {
+    margin-bottom: 15rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
   .link {
     font-size: 3.2rem;
     letter-spacing: 0.6rem;
