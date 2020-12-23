@@ -46,11 +46,12 @@
   line-height: 2.6rem;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 640px) {
   .header {
-    height: 100vh;
+    height: 80vh;
     letter-spacing: -2px;
     max-height: none;
+    min-height: 78rem;
   }
 
   .header_wrapper {
@@ -75,30 +76,63 @@
   }
 }
 
-@media screen and (min-width: 975px) {
-  .header_wrapper {
+@media screen and (min-width: 1024px) {
+  /* .header_wrapper {
     width: 70%;
+  } */
+
+  .header {
+    margin-bottom: 16rem;
+    height: 105vh;
+    min-height: none;
   }
 
   .header h2 {
-    font-size: 7.9rem;
-    line-height: 9rem;
+    font-size: 4.6rem;
+    line-height: 4.6rem;
   }
 
   .header_content {
-    font-size: 4.3rem;
+    font-size: 3.3rem;
   }
 
   .header_content div {
-    margin-top: 5rem;
+    margin-top: 3rem;
   }
 
   .header_content div p {
-    line-height: 4.8rem;
+    line-height: 3.8rem;
   }
 }
 
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1344px) and (min-height: 756px) {
+  .header {
+    margin-bottom: 8rem;
+  }
+
+  .header h2 {
+    font-size: 7rem;
+    line-height: 7.9rem;
+  }
+
+  .header_content {
+    font-size: 4rem;
+  }
+
+  .header_content div p {
+    line-height: 4.5rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .header {
+    height: 92vh;
+  }
+
+  .header_wrapper {
+    width: 75%;
+  }
+
   .header h2 {
     font-size: 8.5rem;
     line-height: 7.5rem;
@@ -109,7 +143,7 @@
   }
 
   .header_content div p {
-    line-height: 5.5rem;
+    line-height: 5.2rem;
   }
 }
 

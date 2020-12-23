@@ -24,9 +24,8 @@
 
 @media screen and (min-width: 640px) {
   .segment {
-    margin: 15rem auto 5rem auto;
-    text-align: center;
-    width: 70%;
+    margin: 15rem auto 4rem auto;
+    width: 90%;
   }
 
   .segment h3 {
@@ -39,6 +38,24 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .segment {
+    margin: 15rem auto 5rem auto;
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1344px) and (min-height: 756px) {
+  .segment {
+    width: 75%;
+  }
+
+  .segment h3 {
+    font-size: 3.8rem;
+  }
+  .segment p {
+    font-size: 5rem;
+    line-height: 5.4rem;
+  }
 }
 
 @media screen and (min-width: 1400px) {
@@ -48,10 +65,10 @@
   }
 
   .segment h3 {
-    font-size: 5.5rem;
+    font-size: 4.8rem;
   }
   .segment p {
-    font-size: 7.3rem;
-    line-height: 8.2rem;
+    font-size: 6.2rem;
+    line-height: 7rem;
   }
 }

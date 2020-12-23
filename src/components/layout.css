@@ -37,3 +37,9 @@ a {
     width: 96%;
   }
 }
+
+@media screen and (min-width: 1344px) and (min-height: 756px) {
+  body {
+    width: 92%;
+  }
+}

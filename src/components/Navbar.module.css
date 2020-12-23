@@ -189,6 +189,21 @@
   }
 }
 
+@media screen and (min-width: 1344px) and (min-height: 756px) {
+  .Navbar {
+    width: 92%;
+  }
+
+  .NavDesk .container h1,
+  .NavDesk ul {
+    font-size: 3.2rem;
+  }
+
+  .NavDesk .links li {
+    margin-left: 1.6rem;
+  }
+}
+
 @media screen and (max-height: 500px) and (orientation: landscape) {
   .NavMobClose {
     position: fixed;

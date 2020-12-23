@@ -35,22 +35,30 @@
   }
 }
 
-@media screen and (min-width: 975px) {
+@media screen and (min-width: 1024px) {
   .footer {
     height: 80vh;
-    margin: 35rem auto 2rem auto;
     letter-spacing: -2px;
   }
 
   .footer h3 {
-    font-size: 3.8rem;
-    width: 80%;
-    line-height: 4.5rem;
+    font-size: 3.2rem;
+    width: 65%;
+    line-height: 4rem;
     margin: 3rem auto;
   }
 }
 
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1344px) and (min-height: 756px) {
+  .footer h3 {
+    font-size: 3.8rem;
+    width: 57%;
+    line-height: 4rem;
+    margin: 4.5rem auto;
+  }
+}
+
+@media screen and (min-width: 1400px) {
   .footer {
     height: 83vh;
     margin: 25rem auto 2rem auto;

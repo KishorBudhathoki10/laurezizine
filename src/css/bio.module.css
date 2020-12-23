@@ -42,16 +42,11 @@
     font-size: 1.6rem;
     margin-top: 3.5rem;
   }
-
-  .link {
-    font-size: 2rem;
-    margin: 8rem auto;
-  }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .bioContent {
-    width: 65%;
+    width: 68%;
     max-width: 720px;
   }
 
@@ -61,7 +56,24 @@
   }
 
   .link {
-    margin: 8rem auto 12rem auto;
+    margin: 6rem auto 8rem auto;
+  }
+}
+
+@media screen and (min-width: 1344px) and (min-height: 756px) {
+  .bioContent {
+    width: 68%;
+    max-width: 720px;
+  }
+
+  .bioContent p {
+    font-size: 1.8rem;
+    margin-top: 2.5rem;
+  }
+
+  .link {
+    font-size: 2rem;
+    margin: 6rem auto 10rem auto;
   }
 }
 

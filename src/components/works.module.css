@@ -44,6 +44,30 @@
 @media screen and (min-width: 640px) {
   .works article {
     margin-top: 10rem;
+    width: 90%;
+  }
+
+  .works article div {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .works h2 {
+    font-size: 3rem;
+    line-height: 3.8rem;
+  }
+
+  .works p {
+    font-size: 1.6rem;
+    width: 90%;
+    margin-top: 1rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .works article {
+    margin-top: 10rem;
     width: 70%;
   }
 
@@ -65,14 +89,7 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
-}
-
-@media screen and (min-width: 1080px) {
-  .worksContainer {
-    margin-top: 25rem;
-  }
-
+@media screen and (min-width: 1344px) and (min-height: 756px) {
   .works {
     width: 90%;
     display: flex;
@@ -81,12 +98,49 @@
   }
 
   .works h2 {
-    font-size: 5.5rem;
-    line-height: 5.76rem;
+    font-size: 3.7rem;
+    line-height: 4.2rem;
   }
 
   .works p {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+    width: 85%;
+  }
+
+  .works p span {
+    display: block;
+  }
+
+  .works article {
+    width: 45%;
+    margin: 0 auto 10rem auto;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .works {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .works article div {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .works h2 {
+    font-size: 4.8rem;
+    line-height: 5rem;
+  }
+
+  .works p {
+    font-size: 2.2rem;
+    line-height: 3.3rem;
+    width: 80%;
+    margin-top: 2rem;
   }
 
   .works article {

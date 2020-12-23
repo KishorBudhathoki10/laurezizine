@@ -24,3 +24,9 @@
     font-size: 2.1rem;
   }
 }
+
+@media screen and (min-width: 1344px) and (min-height: 756px) {
+  .Footer {
+    margin: 4rem 0;
+  }
+}

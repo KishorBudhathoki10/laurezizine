@@ -38,46 +38,61 @@
 
   .section p {
     font-size: 1.6rem;
-    width: 95%;
+    width: 90%;
+    margin-top: 2rem;
   }
 }
 
-@media screen and (min-width: 975px) {
+@media screen and (min-width: 1024px) {
   .image {
-    width: 60%;
+    width: 63%;
   }
 
   .section h4 {
-    font-size: 3.5rem;
-    line-height: 4rem;
     margin: 4rem auto 2rem auto;
   }
 
   .section p {
-    font-size: 1.8rem;
     width: 70%;
-  }
-
-  .section span {
-    display: block;
   }
 }
 
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1344px) and (min-height: 756px) {
+  .image {
+    width: 50%;
+  }
+
+  .section h4 {
+    font-size: 3.2rem;
+    margin: 4rem auto 2rem auto;
+  }
+
+  .section h4 span {
+    display: block;
+  }
+
+  .section p {
+    font-size: 1.6rem;
+    width: 50%;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
   .image {
     width: 55%;
   }
 
   .section h4 {
-    font-size: 4.5rem;
+    font-size: 4.4rem;
     line-height: 5.2rem;
-    margin: 5rem auto;
+    margin: 4rem auto 0 auto;
   }
 
   .section p {
     font-size: 2.4rem;
     width: 50%;
-    margin: 5rem auto;
+    margin: 2rem auto 3rem auto;
   }
 }
 

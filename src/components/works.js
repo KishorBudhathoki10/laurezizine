@@ -45,11 +45,11 @@ const ES = {
 
       <p>
         Para acompañarte durante tu maternidad voy a escucharte, aconsejarte, e
-        informarte.
-      </p>
-      <p>
-        Al establecer vínculos entre tu conducta materna y los recuerdos de tu
-        propia infancia, construirás la madre que quieres ser.
+        informarte.{" "}
+        <span>
+          Al establecer vínculos entre tu conducta materna y los recuerdos de tu
+          propia infancia, construirás la madre que quieres ser.
+        </span>
       </p>
     </>
   ),

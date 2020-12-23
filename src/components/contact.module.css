@@ -27,6 +27,10 @@
 }
 
 @media screen and (min-width: 640px) {
+  .header {
+    min-height: 78rem;
+  }
+
   .header p {
     font-size: 3.5rem;
     font-weight: lighter;
@@ -38,9 +42,27 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .header {
+    min-height: none;
+  }
+
+  .header .changing {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1344px) and (min-height: 756px) {
+  .header p {
+    font-size: 5rem;
+    font-weight: lighter;
+    line-height: 6rem;
+  }
+}
+
 @media screen and (min-width: 1400px) {
   .header p {
-    font-size: 6.5rem;
+    font-size: 6.2rem;
     line-height: 7rem;
     max-width: 110rem;
   }

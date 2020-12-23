@@ -81,6 +81,7 @@
     margin-bottom: 30rem;
     height: 80vh;
     max-height: none;
+    min-height: 78rem;
   }
 
   .info {
@@ -120,6 +121,7 @@
 @media screen and (min-width: 1024px) {
   .header {
     height: 105vh;
+    min-height: none;
   }
 
   .lastinfo p {
@@ -127,11 +129,10 @@
   }
 }
 
-@media screen and (min-width: 1050px) and (min-height: 500px) {
+@media screen and (min-width: 1344px) and (min-height: 756px) {
   .header {
     padding: 0;
-    margin-bottom: 0;
-    height: 105vh;
+    margin-bottom: 24rem;
   }
 
   .headerContainer {
@@ -178,7 +179,7 @@
   }
 
   .image {
-    margin-top: 0;
+    margin-top: 10rem;
   }
 }
 
