@@ -5,11 +5,14 @@ import Layout from "../components/layout"
 import HeaderMetodo from "../components/headerMetodo"
 import Section from "../components/sectionMetodo"
 import classes from "../css/metodo.module.css"
+import SEO from "../components/SEO"
 
 const metodo = () => {
   return (
     <Layout>
+      <SEO title="Metodo" description="Method page" />
       <HeaderMetodo />
+
       <Section article="article1">
         <h4 data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
           Terapia analítica

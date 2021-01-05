@@ -268,10 +268,18 @@
 @media screen and (min-width: 1800px) {
   .HeaderBio {
     margin-bottom: 80rem;
+    height: 67vh;
   }
 
   .header {
+    height: 85vh;
     justify-content: center;
+  }
+
+  .header_wrapper {
+    width: 90%;
+    color: white;
+    margin-top: -5%;
   }
 }
 

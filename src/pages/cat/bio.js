@@ -4,10 +4,12 @@ import { Link } from "gatsby"
 import Layout from "../../components/layout"
 import Header from "../../components/headerBio"
 import classes from "../../css/bio.module.css"
+import SEO from "../../components/SEO"
 
 const bio = () => {
   return (
     <Layout>
+      <SEO title="Bio | cat" description="Method page" />
       <Header />
 
       <main className={classes.bioContent}>

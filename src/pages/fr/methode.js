@@ -5,10 +5,12 @@ import Layout from "../../components/layout"
 import HeaderMetodo from "../../components/headerMetodo"
 import Section from "../../components/sectionMetodo"
 import classes from "../../css/metodo.module.css"
+import SEO from "../../components/SEO"
 
 const methode = () => {
   return (
     <Layout>
+      <SEO title="Methode" description="Method page" />
       <HeaderMetodo />
 
       <Section article="article1">

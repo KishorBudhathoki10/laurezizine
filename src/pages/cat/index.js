@@ -6,10 +6,13 @@ import Segment from "../../components/segment"
 import Link from "../../components/link"
 import Works from "../../components/works"
 import Contact from "../../components/contact"
+import SEO from "../../components/SEO"
 
 export default function Home() {
   return (
     <Layout>
+      <SEO title="Home | cat" description="Home page Laure Zizine" />
+
       <Hero />
 
       <Segment>

@@ -6,10 +6,13 @@ import classes from "../../css/manifesto.module.css"
 import SectionManifesto from "../../components/sectionManifesto"
 import Header from "../../components/headerManifesto"
 import FooterManifesto from "../../components/footerManifesto"
+import SEO from "../../components/SEO"
 
 const Manifest = () => {
   return (
     <Layout>
+      <SEO title="Manifest" description="Manifest page" />
+
       <Header />
 
       <div
