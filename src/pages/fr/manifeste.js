@@ -24,7 +24,7 @@ const Manifeste = () => {
         >
           <p>
             Les émotions sont exacerbées, le corps se transforme, le couple est
-            mis à l’épreuve et on peut se sentir dépassé.
+            mis à l’épreuve et on peut se sentir dépassées.
           </p>
         </div>
 

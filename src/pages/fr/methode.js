@@ -66,7 +66,7 @@ const methode = () => {
       </Section>
 
       <Link to="/fr/contact" className={classes.link}>
-        CONTACTE
+        CONTACT
       </Link>
     </Layout>
   )

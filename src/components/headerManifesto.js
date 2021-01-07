@@ -52,7 +52,7 @@ const CAT = {
 const FR = {
   header: (
     <h2>
-      Le Primer <span>Lien</span>
+      Le Premier <span>Lien</span>
     </h2>
   ),
   content1: (
