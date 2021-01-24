@@ -8,11 +8,13 @@ const ES = {
   content: (
     <div>
       <p className={classes.changing}>
-        Si tienes ganas de saber más no dudes
-        <span> en contactarme! </span>
+        Si tienes ganas de saber más no dudes en contactarme.
       </p>
-      <p>Mob: 665 335 599</p>
-      <p>Email: info@laurezizine.com</p>
+
+      <div className={classes.contactInfo}>
+        <p>M: 665 335 599</p>
+        <p>info@laurezizine.com</p>
+      </div>
     </div>
   ),
 }
@@ -24,8 +26,8 @@ const CAT = {
         Si tens ganes de saber-ne més, no dubtis
         <span> en contactar-me! </span>
       </p>
-      <p>Mob: 665 335 599</p>
-      <p>Email: info@laurezizine.com</p>
+      <p>M: 665 335 599</p>
+      <p>info@laurezizine.com</p>
     </div>
   ),
 }
@@ -37,7 +39,7 @@ const FR = {
         Si vous voulez en savoir plus, n'hésitez pas à<span> m'appeler </span>
       </p>
       <p>Mob: 665 335 599</p>
-      <p>Email: info@laurezizine.com</p>
+      <p>info@laurezizine.com</p>
     </div>
   ),
 }

@@ -32,8 +32,9 @@ const ES = {
       </h2>
 
       <p>
-        La Terapia Analítica se articula mediante el diálogo. Es un trabajo
-        terapeutico que mejorará tu vida interior y tus vínculos con el mundo.
+        La Terapia Analítica se articula mediante el diálogo con el terapeuta.
+        Es un trabajo terapeutico que mejorará tu vida interior, tu relaciones y
+        tus vínculos con el mundo.
       </p>
     </>
   ),
@@ -47,8 +48,8 @@ const ES = {
         Para acompañarte durante tu maternidad voy a escucharte, aconsejarte, e
         informarte.{" "}
         <span>
-          Al establecer vínculos entre tu conducta materna y los recuerdos de tu
-          propia infancia, construirás la madre que quieres ser.
+          Al establecer vínculos entre tu conducta y los recuerdos de tu
+          infancia, te construirás como madre.
         </span>
       </p>
     </>

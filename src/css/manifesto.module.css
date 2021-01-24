@@ -9,7 +9,10 @@
   text-align: center;
   margin: 3rem auto;
   letter-spacing: -1px;
-  font-weight: lighter;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .article p {
@@ -29,13 +32,16 @@
 }
 
 .section h4 {
-  font-weight: lighter;
+  font-weight: normal;
   font-family: "SBK Light", sans-serif;
   font-size: 2.3rem;
   line-height: 2.5rem;
   width: 98%;
   margin: 0 auto;
   letter-spacing: -1px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .Manifesto span {
@@ -44,6 +50,9 @@
 
 .italic {
   font-family: "SBK Light Italic", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .lastArticle {
@@ -97,17 +106,22 @@
 }
 
 @media screen and (min-width: 1400px) {
+  .firstArticle {
+    margin-top: 16rem;
+  }
+
   .article {
     margin: 6rem auto;
     width: 65%;
   }
 
   .article p {
-    font-size: 4.5rem;
+    font-size: 4.2rem;
     line-height: 5rem;
+    letter-spacing: -0.5px;
   }
 
   .lastArticle {
-    margin: 12rem auto 29rem auto;
+    margin: 25rem auto 29rem auto;
   }
 }

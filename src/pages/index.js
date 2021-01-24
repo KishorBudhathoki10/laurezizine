@@ -1,9 +1,10 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Hero from "../components/hero"
 import Segment from "../components/segment"
-import Link from "../components/link"
+import LinkTwo from "../components/link"
 import Works from "../components/works"
 import Contact from "../components/contact"
 import SEO from "../components/SEO"
@@ -16,20 +17,22 @@ export default function Home() {
       <Hero />
 
       <Segment>
-        <h3 data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
-          El vínculo de la maternidad
-        </h3>
+        <Link to="/manifesto">
+          <h3 data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+            El vínculo de la maternidad
+          </h3>
+        </Link>
         <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
           Que valores tiene la relación con los tuyos? Juntos vais a crear
           vuestra propia historia, llena de experiencias maravillosas.
         </p>
       </Segment>
 
-      <Link url="/manifesto" text="Manifesto" />
+      <LinkTwo url="/manifesto" text="Manifesto" />
 
       <Works />
 
-      <Link url="/metodo" text="SABER MÁS" />
+      <LinkTwo url="/metodo" text="SABER MÁS" />
 
       <Segment>
         <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
@@ -38,7 +41,7 @@ export default function Home() {
         </p>
       </Segment>
 
-      <Link url="/bio" text="Mas sobre mi" />
+      <LinkTwo url="/bio" text="Mas sobre mi" />
 
       <Contact />
     </Layout>

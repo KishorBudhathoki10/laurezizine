@@ -38,7 +38,7 @@ const ES = {
   greeting1: (
     <p>
       <span>Hola!</span>
-      <span>Sóy Laure</span>
+      <span>Soy Laure</span>
     </p>
   ),
   greeting2: (

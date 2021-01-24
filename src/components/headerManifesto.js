@@ -105,6 +105,7 @@ const HeaderManifesto = () => {
       fluid={backgrdImg.childImageSharp.fixed}
       className={classes.header}
     >
+      <h3 className={classes.onlyMobileHeader}>Manifiesto</h3>
       {/* <div
       className={classes.header}
       style={{ backgroundImage: `url(${backgroundImage})` }}

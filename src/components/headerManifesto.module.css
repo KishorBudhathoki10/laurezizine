@@ -26,6 +26,9 @@
   font-size: 3.5rem;
   line-height: 3.5rem;
   font-weight: 400;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .header h2 span {
@@ -36,6 +39,9 @@
   text-align: center;
   font-size: 2.2rem;
   font-family: "SBK Light", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .header_content div {
@@ -44,6 +50,21 @@
 
 .header_content div p {
   line-height: 2.6rem;
+}
+
+.onlyMobileHeader {
+  text-decoration: none;
+  font-family: "BatonTurbo Medium", sans-serif;
+  font-size: 1.6rem;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  position: relative;
+  top: -2.8rem;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 @media screen and (min-width: 640px) {
@@ -73,6 +94,10 @@
 
   .header_content div p {
     line-height: 4.2rem;
+  }
+
+  .onlyMobileHeader {
+    display: none;
   }
 }
 
@@ -135,15 +160,17 @@
 
   .header h2 {
     font-size: 8.5rem;
-    line-height: 7.5rem;
+    line-height: 7.8rem;
+    letter-spacing: -4px;
   }
 
   .header_content {
-    font-size: 5rem;
+    font-size: 4.2rem;
   }
 
   .header_content div p {
-    line-height: 5.2rem;
+    line-height: 5rem;
+    letter-spacing: -0.5px;
   }
 }
 

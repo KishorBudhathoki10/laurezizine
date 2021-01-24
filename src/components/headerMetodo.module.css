@@ -24,7 +24,10 @@
   text-align: center;
   font-family: "SBK Regular", sans-serif;
   font-size: 3.5rem;
-  font-weight: 400;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .header h2 span {
@@ -35,6 +38,9 @@
   text-align: center;
   font-size: 2.2rem;
   font-family: "SBK Light", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .header_content div {
@@ -132,6 +138,7 @@
 
   .header h2 {
     font-size: 8.5rem;
+    letter-spacing: -4px;
   }
 
   .header_content {

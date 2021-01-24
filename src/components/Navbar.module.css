@@ -25,18 +25,27 @@
 
 .Navbar h1 {
   font-family: "Tiempos Light", sans-serif;
-  font-weight: lighter;
+  font-weight: normal;
   font-size: 2.7rem;
   cursor: pointer;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .Navbar h1 span {
   font-family: "Tiempos Italic", sans-serif;
-  font-weight: lighter;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .activeLang {
   font-family: "BatonTurbo Medium", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .activeNavLink {
@@ -48,6 +57,9 @@
   font-family: "Tiempos Light", sans-serif;
   font-weight: 300;
   font-size: 2.7rem;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .hide {
@@ -99,10 +111,14 @@
   z-index: 9999;
   background-color: white;
   width: 100%;
-  height: calc(100vh - 7rem);
+  height: calc(100vh - 7.5rem);
   top: 0;
   left: 0;
   border-top: 1px solid #dedfdf;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  scroll-snap-stop: true;
 }
 
 .NavMobClose .links {
@@ -110,6 +126,7 @@
 }
 
 .NavMobClose .links ul li {
+  font-family: "Tiempos Light", sans-serif;
   border-bottom: 1px solid #dedfdf;
   padding: 3.5rem;
   font-size: 2.4rem;
@@ -119,7 +136,7 @@
   font-size: 1.8rem;
   font-weight: 300;
   text-align: center;
-  margin-top: 4rem;
+  padding-bottom: 2.5rem;
 }
 
 .NavMobClose p span {
@@ -175,7 +192,10 @@
     margin-bottom: 2rem;
     letter-spacing: 2px;
     font-family: "BatonTurbo Regular", sans-serif;
-    font-weight: lighter;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   .NavDesk .links {
@@ -206,10 +226,7 @@
 
 @media screen and (max-height: 500px) and (orientation: landscape) {
   .NavMobClose {
-    position: fixed;
-    left: 0;
-    height: 95vh;
-    scroll-snap-stop: true;
+    height: 83vh;
   }
 
   .NavMobClose .links li {

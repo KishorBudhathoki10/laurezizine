@@ -20,14 +20,10 @@ const bio = () => {
           data-sal-delay="100"
           data-sal-duration="2000"
         >
-          <span className={classes.orange}>SOY MADRE</span> DE DOS NIÑOS
-          INCREIBLES,
-        </p>
-
-        <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
-          Chloé es la mayor, y el pequeño, Tom. La experiencia está siendo
-          transformadora. Ha nacido en mí el deseo de profundizar en el estrecho
-          vinculo que se produce entre madre e hijo.
+          SOY MADRE de dos niños increibles, Chloé es la mayor, y el pequeño,
+          Tom. La experiencia está siendo transformadora. Ha nacido en mí el
+          deseo de profundizar en el estrecho vinculo que se produce entre madre
+          e hijo.
         </p>
 
         <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">

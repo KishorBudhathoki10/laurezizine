@@ -16,8 +16,11 @@
   font-family: "SBK Light", sans-serif;
   width: 85%;
   line-height: 2.5rem;
-  font-weight: lighter;
+  font-weight: normal;
   margin: 3rem auto;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 @media screen and (min-width: 600px) {
@@ -66,10 +69,17 @@
   }
 
   .footer h3 {
+    font-size: 2.9rem;
+    letter-spacing: -0.5px;
+    width: 40%;
+    margin: 5rem auto;
+    line-height: 3.5rem;
+  }
+
+  .special h3 {
     font-size: 5rem;
     width: 70%;
     line-height: 5.5rem;
-    margin: 5rem auto;
   }
 }
 

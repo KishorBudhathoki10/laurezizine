@@ -22,7 +22,7 @@ const Manifesto = () => {
           data-sal-delay="100"
           data-sal-duration="2000"
         >
-          <p>
+          <p className={classes.firstArticle}>
             Las emociones se intensifican, el cuerpo se transforma, la pareja se
             somete a una nueva incógnita y una puede sentirse superada.
           </p>

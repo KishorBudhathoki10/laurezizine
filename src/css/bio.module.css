@@ -8,8 +8,11 @@
 
 .bioContent p {
   font-size: 1.3rem;
-  font-family: "SBK Regular", sans-serif;
+  font-family: "Tiempos Light", sans-serif;
   margin-top: 2rem;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .info {
@@ -35,6 +38,9 @@
   font-weight: bold;
   margin: 4rem auto 8.5rem auto;
   font-size: 1.6rem;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 @media screen and (min-width: 600px) {
@@ -84,12 +90,16 @@
   }
 
   .bioContent p {
-    font-size: 2.2rem;
-    margin-top: 3.5rem;
+    font-size: 2.9rem;
+    margin: 3rem auto;
+    letter-spacing: 0.5px;
+    line-height: 3.7rem;
   }
 
   .link {
+    font-size: 2.2rem;
     margin: 8rem auto 12rem auto;
+    letter-spacing: 6px;
   }
 }
 

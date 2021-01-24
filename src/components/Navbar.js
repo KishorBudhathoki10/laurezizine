@@ -99,7 +99,7 @@ const Navbar = () => {
         <div className={className}>
           <ul>
             <Link to="/manifesto" activeClassName={classes.activeNavLink}>
-              <li>Manifesto</li>
+              <li>Manifiesto</li>
             </Link>
             <Link to="/metodo" activeClassName={classes.activeNavLink}>
               <li>Método</li>

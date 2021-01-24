@@ -8,14 +8,15 @@ const ES = {
   content1: (
     <h3>
       Hablemos sin compromiso, te invito a hacer una primera cita gratuita para
-      conocernos.
+      conocernos. Así decidirás tranquilamente si quieres que empecemos a
+      caminar juntas.
     </h3>
   ),
-  content2: (
-    <h3>
-      Así decidirás tranquilamente si quieres que empecemos a caminar juntas.
-    </h3>
-  ),
+  // content2: (
+  //   <h3>
+  //     Así decidirás tranquilamente si quieres que empecemos a caminar juntas.
+  //   </h3>
+  // ),
 }
 
 const CAT = {
@@ -72,25 +73,25 @@ const FooterManifesto = () => {
   const { bottomBackground } = useStaticQuery(query)
 
   return (
-    <div data-sal="fade" data-sal-delay="300" data-sal-duration="2000">
-      <BackgroundImage
-        Tag={`div`}
-        fluid={bottomBackground.childImageSharp.fluid}
-        className={classes.footer}
-        backgroundColor={`#FFAE07`}
-      >
-        <div>
-          {languageHandler("content1")}
+    <BackgroundImage
+      Tag={`div`}
+      fluid={bottomBackground.childImageSharp.fluid}
+      className={classes.footer}
+      backgroundColor={`#FFAE07`}
+    >
+      <div>
+        {languageHandler("content1")}
 
-          {languageHandler("content2")}
+        {languageHandler("content2")}
 
+        <div className={classes.special}>
           <h3>
-            <span className={classes.block}>Mob: 665 335 599</span>
-            <span className={classes.block}>Email: info@laurezizine.com</span>
+            <span className={classes.block}>M: 665 335 599</span>
+            <span className={classes.block}>info@laurezizine.com</span>
           </h3>
         </div>
-      </BackgroundImage>
-    </div>
+      </div>
+    </BackgroundImage>
   )
 }
 
