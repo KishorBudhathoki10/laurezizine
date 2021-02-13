@@ -1,8 +1,9 @@
 import React from "react"
-import BackgroundImage from "gatsby-background-image"
-import { graphql, useStaticQuery } from "gatsby"
+// import BackgroundImage from "gatsby-background-image"
+// import { graphql, useStaticQuery } from "gatsby"
 
 import classes from "./headerMetodo.module.css"
+import backgroundImage from "../images/backgroundMetodo.png"
 
 const ES = {
   header: <h2>Metodología</h2>,
@@ -53,26 +54,32 @@ const languageHandler = key => {
   }
 }
 
-const query = graphql`
-  {
-    backgrdImg: file(relativePath: { eq: "backgroundMetodo.png" }) {
-      childImageSharp {
-        fixed(width: 2500) {
-          ...GatsbyImageSharpFixed_withWebp
-        }
-      }
-    }
-  }
-`
+// const query = graphql`
+//   {
+//     backgrdImg: file(relativePath: { eq: "backgroundMetodo.png" }) {
+//       childImageSharp {
+//         fixed(width: 2500) {
+//           ...GatsbyImageSharpFixed_withWebp
+//         }
+//       }
+//     }
+//   }
+// `
 
 const HeaderMetodo = () => {
-  const { backgrdImg } = useStaticQuery(query)
+  // const { backgrdImg } = useStaticQuery(query)
 
   return (
-    <BackgroundImage
-      Tag={`div`}
-      fluid={backgrdImg.childImageSharp.fixed}
+    // <BackgroundImage
+    //   Tag={`div`}
+    //   fluid={backgrdImg.childImageSharp.fixed}
+    //   className={classes.header}
+    // >
+    <div
       className={classes.header}
+      style={{
+        backgroundImage: `url(${backgroundImage})`,
+      }}
     >
       <div className={classes.header_wrapper}>
         {languageHandler("header")}
@@ -81,7 +88,8 @@ const HeaderMetodo = () => {
           {languageHandler("content1")}
         </div>
       </div>
-    </BackgroundImage>
+    </div>
+    // </BackgroundImage>
   )
 }
 

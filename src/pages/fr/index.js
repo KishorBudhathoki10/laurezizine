@@ -16,10 +16,10 @@ export default function Home() {
       <Hero />
 
       <Segment>
-        <h3 data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+        <h3 data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
           Le lien de la maternité
         </h3>
-        <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+        <p data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
           Quelles valeurs ont pour vous vos relations avec les votres? Ensemble,
           vous créerez votre propre histoire, pleine d'expériences
           merveilleuses.
@@ -33,7 +33,7 @@ export default function Home() {
       <Link url="/fr/methode" text="SAVOIR PLUS" />
 
       <Segment>
-        <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+        <p data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
           “Je suis Laure, thérapeute analytique. Il y a dix ans, j'ai lancé le
           projet pour aider les femmes à devenir mères.”
         </p>

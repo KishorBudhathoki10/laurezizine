@@ -18,10 +18,10 @@ const Manifest = () => {
       <div
         className={classes.article}
         data-sal="fade"
-        data-sal-delay="100"
-        data-sal-duration="2000"
+        data-sal-delay="-20"
+        data-sal-duration="1000"
       >
-        <p>
+        <p className={classes.firstArticle}>
           Les emocions s'exacerben, el cos es transforma, la parella se sotmet a
           una nova incògnita i una pot sentir-se superada.
         </p>
@@ -40,18 +40,18 @@ const Manifest = () => {
       </div>
 
       <SectionManifesto article="article1">
-        <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+        <p data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
           Estem davant d’un dels reptes més importants de la nostra vida. El
           d'iniciar una relació meravellosa amb el nostre fill, també amb la
           nostra parella i sobretot amb nosaltres mateixa. El de teixir el llaç
           més íntim que un ésser humà pot arribar a tenir.
         </p>
 
-        <h4 data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+        <h4 data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
           Per al teu fill, tu ets <span>el primer vincle.</span>
         </h4>
 
-        <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+        <p data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
           La creació d'aquest vincle requereix temps, dedicació i coneixement.
           Necessitem saber on volem anar, què volem construir amb el nostre
           fill, quins valors li volem transmetre. Junts creareu la vostra pròpia
@@ -60,7 +60,7 @@ const Manifest = () => {
       </SectionManifesto>
 
       <SectionManifesto article="article2">
-        <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+        <p data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
           Et proposo d’acompanyar-te en aquesta reflexió mitjançant{" "}
           <Link to="/cat/metode" className={classes.blueText}>
             la Teràpia Analítica
@@ -72,13 +72,13 @@ const Manifest = () => {
           . Vull oferir-te un lloc de confiança i de confidencialitat.
         </p>
 
-        <h4 data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+        <h4 data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
           Un espai comprensiu, sense judici, on podràs expressar les teves
           idees, els teus dubtes i les teves pors, i parlar sense tabús de la
           dificultat de ser mare.
         </h4>
 
-        <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+        <p data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
           Mitjançant d'un treball d'introspecció, mirarem juntes el que ja has
           viscut, per comprendre-ho, reconèixer-ho i afrontar-ho. Anar cap a
           l'origen permet qüestionar-se i així canviar o mantenir maneres de
@@ -87,17 +87,17 @@ const Manifest = () => {
       </SectionManifesto>
 
       <SectionManifesto article="article3">
-        <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+        <p data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
           T'ajudaré a reconèixer el que és essencial per a tu i a prendre les
           decisions que consideris correctes.
         </p>
 
-        <h4 data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+        <h4 data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
           Un és actor de la seva pròpia vida. Jo t'ajudaré a donar-te els
           mitjans per trobar-te i construir el teu lloc en la família.
         </h4>
 
-        <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+        <p data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
           La maternitat no és un instint innat per a totes les dones, la
           capacitat de relacionar-nos amb el nostre bebè es construeix amb el
           temps. Veurem néixer la teva consciència com a mare. El meu treball és
@@ -107,8 +107,10 @@ const Manifest = () => {
       </SectionManifesto>
 
       <div className={classes.article + " " + classes.lastArticle}>
-        <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
-          Ha nascut el teu fill.{" "}
+        <p data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
+          Ha nascut el teu fill.
+        </p>
+        <p>
           <span className={classes.italic}>La mare que hi ha en tu</span>{" "}
           <span className={classes.italic}>ha nascut amb ell.</span>
         </p>

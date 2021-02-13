@@ -16,20 +16,16 @@ const bio = () => {
         <p
           className={classes.info}
           data-sal="fade"
-          data-sal-delay="100"
-          data-sal-duration="2000"
+          data-sal-delay="-20"
+          data-sal-duration="1000"
         >
-          <span className={classes.orange}>SÓC MARE</span> DE DOS NENS
-          MERAVELLOSOS,
+          <span>SÓC MARE</span> de dos nens meravellosos, Chloé és la major, i
+          el petit, Tom. L'experiència està sent molt transformadora. Ha nascut
+          en mi el desig d'aprofundir en l'estret vincle que es produeix entre
+          mare i fill.
         </p>
 
-        <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
-          Chloé és la major, i el petit, Tom. L'experiència està sent molt
-          transformadora. Ha nascut en mi el desig d'aprofundir en l'estret
-          vincle que es produeix entre mare i fill.
-        </p>
-
-        <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+        <p data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
           Així que he tornat a un recorregut que va començar a París durant set
           anys de psicoanàlisi Lacaniana. He decidit continuar profunditzant
           l'aprenentatge de la teoria de la psicoanàlisi gràcies a una formació
@@ -38,7 +34,7 @@ const bio = () => {
           durant cinc anys més.
         </p>
 
-        <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+        <p data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
           Per a complir els meus interessos en funcions mes practiques he
           realitzat un curs de Puericultura que m'ha permès conèixer molt de
           prop la relació dels petits entre si i també la seva relació amb els
@@ -46,7 +42,7 @@ const bio = () => {
           Linus.
         </p>
 
-        <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+        <p data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
           Gràcies a aquestes dues facetes del meu recorregut he decidit crear un
           espai terapèutic per a dialogar, càlid i de confiança destinat a
           resoldre les problemàtiques amb les quals s'han d'enfrontar les dones

@@ -1,8 +1,9 @@
 import React from "react"
 // import backgroundImage from "../images/backgroundManifesto.png"
-import BackgroundImage from "gatsby-background-image"
-import { graphql, useStaticQuery } from "gatsby"
+// import BackgroundImage from "gatsby-background-image"
+// import { graphql, useStaticQuery } from "gatsby"
 
+import backgroundImage from "../images/backgroundManifesto.png"
 import classes from "./headerManifesto.module.css"
 
 const ES = {
@@ -84,32 +85,34 @@ const languageHandler = key => {
   }
 }
 
-const query = graphql`
-  {
-    backgrdImg: file(relativePath: { eq: "backgroundManifesto.png" }) {
-      childImageSharp {
-        fixed(width: 2500) {
-          ...GatsbyImageSharpFixed_withWebp
-        }
-      }
-    }
-  }
-`
+// const query = graphql`
+//   {
+//     backgrdImg: file(relativePath: { eq: "backgroundManifesto.png" }) {
+//       childImageSharp {
+//         fixed(width: 2500) {
+//           ...GatsbyImageSharpFixed_withWebp
+//         }
+//       }
+//     }
+//   }
+// `
 
 const HeaderManifesto = () => {
-  const { backgrdImg } = useStaticQuery(query)
+  // const { backgrdImg } = useStaticQuery(query)
 
   return (
-    <BackgroundImage
-      Tag={`div`}
-      fluid={backgrdImg.childImageSharp.fixed}
-      className={classes.header}
-    >
-      <h3 className={classes.onlyMobileHeader}>Manifiesto</h3>
-      {/* <div
+    // <BackgroundImage
+    //   Tag={`div`}
+    //   fluid={backgrdImg.childImageSharp.fixed}
+    //   className={classes.header}
+    // >
+
+    <div
       className={classes.header}
       style={{ backgroundImage: `url(${backgroundImage})` }}
-    > */}
+    >
+      <h3 className={classes.onlyMobileHeader}>Manifiesto</h3>
+
       <div className={classes.header_wrapper}>
         {languageHandler("header")}
 
@@ -118,8 +121,8 @@ const HeaderManifesto = () => {
           {languageHandler("content2")}
         </div>
       </div>
-      {/* </div> */}
-    </BackgroundImage>
+    </div>
+    // </BackgroundImage>
   )
 }
 

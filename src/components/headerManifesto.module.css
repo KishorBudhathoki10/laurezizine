@@ -23,8 +23,9 @@
 .header h2 {
   text-align: center;
   font-family: "SBK Regular", sans-serif;
-  font-size: 3.5rem;
-  line-height: 3.5rem;
+  font-size: 3.8rem;
+  line-height: 3.7rem;
+  letter-spacing: -1.5px;
   font-weight: 400;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -37,7 +38,7 @@
 
 .header_content {
   text-align: center;
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   font-family: "SBK Light", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -49,17 +50,17 @@
 }
 
 .header_content div p {
-  line-height: 2.6rem;
+  line-height: 2.8rem;
 }
 
 .onlyMobileHeader {
   text-decoration: none;
   font-family: "BatonTurbo Medium", sans-serif;
   font-size: 1.6rem;
+  letter-spacing: 0.4px;
   display: block;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 0.4rem;
   position: relative;
   top: -2.8rem;
   text-rendering: optimizeLegibility;
@@ -69,10 +70,10 @@
 
 @media screen and (min-width: 640px) {
   .header {
-    height: 80vh;
+    height: 95vh;
     letter-spacing: -2px;
     max-height: none;
-    min-height: 78rem;
+    /* min-height: 77.2rem;  */
   }
 
   .header_wrapper {
@@ -80,12 +81,13 @@
   }
 
   .header h2 {
-    font-size: 5.6rem;
-    line-height: 5.4rem;
+    font-size: 4.5rem;
+    line-height: 4.3rem;
   }
 
   .header_content {
-    font-size: 3.2rem;
+    font-size: 3rem;
+    margin: 0 1rem;
   }
 
   .header_content div {
@@ -93,7 +95,8 @@
   }
 
   .header_content div p {
-    line-height: 4.2rem;
+    line-height: 3.3rem;
+    letter-spacing: -1px;
   }
 
   .onlyMobileHeader {
@@ -108,17 +111,15 @@
 
   .header {
     margin-bottom: 16rem;
-    height: 105vh;
-    min-height: none;
   }
 
   .header h2 {
-    font-size: 4.6rem;
-    line-height: 4.6rem;
+    font-size: 5.8rem;
+    line-height: 5.8rem;
   }
 
   .header_content {
-    font-size: 3.3rem;
+    font-size: 3.6rem;
   }
 
   .header_content div {
@@ -126,26 +127,7 @@
   }
 
   .header_content div p {
-    line-height: 3.8rem;
-  }
-}
-
-@media screen and (min-width: 1344px) and (min-height: 756px) {
-  .header {
-    margin-bottom: 8rem;
-  }
-
-  .header h2 {
-    font-size: 7rem;
-    line-height: 7.9rem;
-  }
-
-  .header_content {
-    font-size: 4rem;
-  }
-
-  .header_content div p {
-    line-height: 4.5rem;
+    line-height: 4rem;
   }
 }
 
@@ -165,12 +147,12 @@
   }
 
   .header_content {
-    font-size: 4.2rem;
+    font-size: 4.6rem;
   }
 
   .header_content div p {
-    line-height: 5rem;
-    letter-spacing: -0.5px;
+    line-height: 5.4rem;
+    letter-spacing: -1.3px;
   }
 }
 

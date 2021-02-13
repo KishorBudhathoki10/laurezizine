@@ -8,12 +8,12 @@
 }
 
 .segment h3 {
-  font-size: 2.1rem;
+  font-size: 2.5rem;
   font-family: "SBK Light Italic", sans-serif;
   font-weight: normal;
   display: inline-block;
   margin-bottom: 2rem;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
   line-height: 6rem;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -22,8 +22,9 @@
 
 .segment p {
   font-family: "SBK Light", sans-serif;
-  font-size: 2.5rem;
-  line-height: 3rem;
+  font-size: 3rem;
+  line-height: 3.4rem;
+  letter-spacing: -1.5px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -31,37 +32,33 @@
 
 @media screen and (min-width: 640px) {
   .segment {
-    margin: 15rem auto 4rem auto;
+    margin: 0rem auto 4rem auto;
     width: 90%;
   }
 
   .segment h3 {
     font-size: 3rem;
+    letter-spacing: -1px;
+    border-bottom: 2px solid black;
   }
   .segment p {
     font-size: 3.7rem;
     line-height: 4.2rem;
+    letter-spacing: -1px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .segment {
-    margin: 15rem auto 5rem auto;
-    width: 70%;
-  }
-}
-
-@media screen and (min-width: 1344px) and (min-height: 756px) {
-  .segment {
     width: 75%;
   }
 
   .segment h3 {
-    font-size: 3.8rem;
+    font-size: 3.2rem;
   }
   .segment p {
-    font-size: 5rem;
-    line-height: 5.4rem;
+    font-size: 4rem;
+    line-height: 4.4rem;
   }
 }
 

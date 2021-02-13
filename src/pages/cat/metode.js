@@ -14,18 +14,18 @@ const metode = () => {
       <HeaderMetodo />
 
       <Section article="article1">
-        <h4 data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+        <h4 data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
           La Teràpia Analítica
         </h4>
 
-        <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+        <p data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
           La Teràpia Analítica és una teràpia verbal, que permet reflexionar,
           elaborar, qüestionar. No hi ha ni dolentes ni bones paraules No es
           contempla plantejar cap judici. És un temps i un espai que ens pertany
           i que ens permet manejar els nostres sofriments.
         </p>
 
-        <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+        <p data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
           Aquesta teràpia permet permet fer un treball d'introspecció,
           desenvolupar els nostres pensaments, associar idees lliurement i
           qüestionar-nos en un intercanvi «cara a cara», amb el terapeuta. El
@@ -34,7 +34,7 @@ const metode = () => {
           mateix.
         </p>
 
-        <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+        <p data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
           Ens demanen quin és l'origen dels nostres problemes per a comprendre
           els seus mecanismes inconscients i així identificar les seves causes.
           Al analitzar-les les reconeixem, les comprenem i podem canviar certes
@@ -46,11 +46,11 @@ const metode = () => {
       </Section>
 
       <Section article="article2">
-        <h4 data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+        <h4 data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
           Orientar <span>la maternitat</span>
         </h4>
 
-        <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+        <p data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
           Gràcies a l'escolta, l'assessorament, la informació, l'orientació en
           la maternitat ajuda a reconèixer-se a si mateixa en el seu paper de
           mare i en el seu paper en la família. És una orientació que permet
@@ -59,7 +59,7 @@ const metode = () => {
           atenció especial.
         </p>
 
-        <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+        <p data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
           L'orientació en la maternitat porta la persona a establir vincles
           entre la seva conducta materna i els records de la seva pròpia
           infància. Això permet convertir-se en la mare que desitges, i donar

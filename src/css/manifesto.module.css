@@ -8,6 +8,7 @@
   font-family: "SBK Light", sans-serif;
   text-align: center;
   margin: 3rem auto;
+  width: 93%;
   letter-spacing: -1px;
   font-weight: normal;
   text-rendering: optimizeLegibility;
@@ -16,32 +17,8 @@
 }
 
 .article p {
-  font-size: 2.2rem;
-  line-height: 2.5rem;
-}
-
-.section {
-  margin: 9rem auto 8rem auto;
-  text-align: center;
-}
-
-.section p {
-  width: 85%;
-  margin: 2rem auto;
-  font-weight: lighter;
-}
-
-.section h4 {
-  font-weight: normal;
-  font-family: "SBK Light", sans-serif;
-  font-size: 2.3rem;
-  line-height: 2.5rem;
-  width: 98%;
-  margin: 0 auto;
-  letter-spacing: -1px;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
 }
 
 .Manifesto span {
@@ -55,23 +32,33 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.lastArticle {
-  margin: 6rem auto 14.5rem auto;
+.firstArticle {
+  margin-top: 11.5rem;
 }
 
-@media screen and (min-width: 600px) {
+.lastArticle {
+  margin: 11.5rem auto;
+}
+
+@media screen and (min-width: 640px) {
   .article {
     margin: 3rem auto;
     letter-spacing: -2px;
+    width: 80%;
   }
 
   .article p {
-    font-size: 3.2rem;
-    line-height: 3.8rem;
+    font-size: 3rem;
+    line-height: 3.3rem;
+    letter-spacing: -1px;
+  }
+
+  .firstArticle {
+    margin-top: 15rem;
   }
 
   .lastArticle {
-    margin: 9rem auto 21rem auto;
+    margin: 15rem auto 21rem auto;
   }
 }
 
@@ -79,29 +66,16 @@
   .article {
     margin: 5.5rem auto;
     letter-spacing: -1px;
-    width: 75%;
+    width: 80%;
   }
 
   .article p {
-    font-size: 3.2rem;
-    line-height: 3.7rem;
-  }
-}
-
-@media screen and (min-width: 1344px) and (min-height: 756px) {
-  .article {
-    margin: 5.5rem auto;
-    letter-spacing: -1px;
-    width: 52%;
-  }
-
-  .article p {
-    font-size: 3.8rem;
-    line-height: 4.5rem;
+    font-size: 3.6rem;
+    line-height: 4rem;
   }
 
   .lastArticle {
-    margin: 14rem auto 30rem auto;
+    margin: 15rem auto;
   }
 }
 
@@ -116,9 +90,9 @@
   }
 
   .article p {
-    font-size: 4.2rem;
-    line-height: 5rem;
-    letter-spacing: -0.5px;
+    font-size: 4.6rem;
+    line-height: 5.4rem;
+    letter-spacing: -1.3px;
   }
 
   .lastArticle {

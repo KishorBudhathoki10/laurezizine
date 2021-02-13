@@ -1,7 +1,8 @@
 import React from "react"
 import BackgroundImage from "gatsby-background-image"
-import { graphql, useStaticQuery } from "gatsby"
+// import { graphql, useStaticQuery } from "gatsby"
 
+import backgroundImage from "../images/bottomManifesto.png"
 import classes from "./footerManifesto.module.css"
 
 const ES = {
@@ -57,27 +58,34 @@ const languageHandler = key => {
   }
 }
 
-export const query = graphql`
-  {
-    bottomBackground: file(relativePath: { eq: "bottomManifesto.png" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-    }
-  }
-`
+// export const query = graphql`
+//   {
+//     bottomBackground: file(relativePath: { eq: "bottomManifesto.png" }) {
+//       childImageSharp {
+//         fluid {
+//           ...GatsbyImageSharpFluid_withWebp
+//         }
+//       }
+//     }
+//   }
+// `
 
 const FooterManifesto = () => {
-  const { bottomBackground } = useStaticQuery(query)
+  // const { bottomBackground } = useStaticQuery(query)
 
   return (
-    <BackgroundImage
-      Tag={`div`}
-      fluid={bottomBackground.childImageSharp.fluid}
+    // <BackgroundImage
+    //   Tag={`div`}
+    //   fluid={bottomBackground.childImageSharp.fluid}
+    //   className={classes.footer}
+    //   backgroundColor={`#FFAE07`}
+    // >
+    <div
       className={classes.footer}
-      backgroundColor={`#FFAE07`}
+      style={{
+        backgroundImage: `url(${backgroundImage})`,
+        backgroundColor: `#FFAE07`,
+      }}
     >
       <div>
         {languageHandler("content1")}
@@ -91,7 +99,8 @@ const FooterManifesto = () => {
           </h3>
         </div>
       </div>
-    </BackgroundImage>
+    </div>
+    // </BackgroundImage>
   )
 }
 

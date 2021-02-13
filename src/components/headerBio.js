@@ -1,9 +1,12 @@
 import React from "react"
-import BackgroundImage from "gatsby-background-image"
+// import BackgroundImage from "gatsby-background-image"
 import { graphql, useStaticQuery } from "gatsby"
 import Image from "gatsby-image"
 
 import classes from "./headerBio.module.css"
+import backgroundImage from "../images/backgroundBio.png"
+import profileImage from "../images/bioProfile.png"
+import profileImageMobile from "../images/bioProfileResponsive.png"
 
 const ES = {
   header: <h5>Terapeuta Analítica</h5>,
@@ -88,10 +91,16 @@ const HeaderBio = () => {
 
   return (
     <div className={classes.HeaderBio}>
-      <BackgroundImage
+      {/* <BackgroundImage
         Tag={`div`}
         fluid={backgrdImg.childImageSharp.fixed}
         className={classes.header}
+      > */}
+      <div
+        className={classes.header}
+        style={{
+          backgroundImage: `url(${backgroundImage})`,
+        }}
       >
         <div className={classes.header_wrapper}>
           <h2>
@@ -104,20 +113,23 @@ const HeaderBio = () => {
             {languageHandler("content1")}
           </div>
         </div>
-      </BackgroundImage>
+      </div>
+      {/* </BackgroundImage> */}
 
       <div className={classes.profileImgResponsive}>
-        <Image
+        {/* <Image
           fluid={profileImgResponsive.childImageSharp.fluid}
           alt="Laure Profile Image"
-        />
+        /> */}
+        <img src={profileImageMobile} alt="profile" />
       </div>
 
       <div className={classes.profileImg}>
-        <Image
+        {/* <Image
           fluid={profileImg.childImageSharp.fluid}
           alt="Laure Profile Image"
-        />
+        /> */}
+        <img src={profileImage} alt="profile" />
       </div>
     </div>
   )

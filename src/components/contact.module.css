@@ -11,9 +11,10 @@
 }
 
 .header p {
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   font-family: "SBK Light", sans-serif;
-  line-height: 2.8rem;
+  letter-spacing: -1px;
+  line-height: 3rem;
   font-weight: normal;
   margin: 0 auto;
   text-rendering: optimizeLegibility;
@@ -30,18 +31,23 @@
 }
 
 .contactInfo {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 @media screen and (min-width: 640px) {
   .header {
-    min-height: 78rem;
+    height: 85vh;
   }
 
   .header p {
-    font-size: 3.5rem;
+    font-size: 3.8rem;
     font-weight: lighter;
-    line-height: 4.8rem;
+    line-height: 3.9rem;
+    letter-spacing: -1px;
+  }
+
+  .contactInfo {
+    margin-top: 4rem;
   }
 
   .header .changing {
@@ -54,16 +60,9 @@
     min-height: none;
   }
 
-  .header .changing {
-    width: 60%;
-  }
-}
-
-@media screen and (min-width: 1344px) and (min-height: 756px) {
   .header p {
-    font-size: 5rem;
-    font-weight: lighter;
-    line-height: 6rem;
+    font-size: 4rem;
+    line-height: 4.4rem;
   }
 }
 

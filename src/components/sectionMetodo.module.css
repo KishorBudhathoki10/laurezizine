@@ -1,22 +1,22 @@
 @import "../css/typography.css";
 
 .section {
-  margin: 9rem auto 8rem auto;
+  margin: 11.5rem auto;
   text-align: center;
 }
 
 .image {
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
 }
 
 .section h4 {
   font-weight: normal;
   font-family: "SBK Light", sans-serif;
-  font-size: 1.9rem;
-  line-height: 2.5rem;
+  font-size: 3rem;
+  line-height: 3rem;
   width: 98%;
-  margin: 2rem auto 0rem auto;
+  margin: 1.8rem auto;
   letter-spacing: -1px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -24,63 +24,44 @@
 }
 
 .section p {
-  font-family: "Tiempos Light", sans-serif;
-  width: 90%;
+  width: 85%;
   margin: 1.1rem auto;
-  font-size: 1.4rem;
-  font-weight: normal;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-size: inherit;
+  letter-spacing: inherit;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 640px) {
+  .section {
+    margin: 15rem auto;
+    text-align: center;
+  }
+
   .section h4 {
-    font-size: 2.8rem;
-    line-height: 3.2rem;
+    font-size: 3.8rem;
+    line-height: 1.4rem;
     margin: 3rem auto;
     letter-spacing: -2px;
   }
 
   .section p {
-    font-size: 1.6rem;
-    width: 90%;
+    font-size: inherit;
+    width: 80%;
     margin-top: 2rem;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .image {
-    width: 63%;
+    width: 55%;
   }
 
   .section h4 {
-    margin: 4rem auto 2rem auto;
+    font-size: 4.5rem;
+    margin: 4rem auto;
   }
 
   .section p {
     width: 70%;
-  }
-}
-
-@media screen and (min-width: 1344px) and (min-height: 756px) {
-  .image {
-    width: 50%;
-  }
-
-  .section h4 {
-    font-size: 3.2rem;
-    margin: 4rem auto 2rem auto;
-  }
-
-  .section h4 span {
-    display: block;
-  }
-
-  .section p {
-    font-size: 1.6rem;
-    width: 50%;
-    margin-top: 2rem;
   }
 }
 
@@ -96,11 +77,9 @@
   }
 
   .section p {
-    font-size: 2.9rem;
+    font-size: inherit;
     width: 50%;
     margin: 4.5rem auto 3rem auto;
-    letter-spacing: 0.5px;
-    line-height: 3.7rem;
   }
 }
 

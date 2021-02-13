@@ -31,8 +31,8 @@ const Manifesto = () => {
         <div
           className={classes.article}
           data-sal="fade"
-          data-sal-delay="100"
-          data-sal-duration="2000"
+          data-sal-delay="-20"
+          data-sal-duration="1000"
         >
           <p>
             Nos enfrentamos a interrogantes íntimos y profundos, y a la
@@ -41,18 +41,18 @@ const Manifesto = () => {
         </div>
 
         <SectionManifesto article="article1">
-          <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+          <p data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
             Nos enfrentamos a uno de los retos más importantes de nuestra vida.
             El de iniciar una relación maravillosa con nuestro hijo, también con
             nuestra pareja y sobre todo con nosotras misma. El de tejer el lazo
             más íntimo que un ser humano tiene.
           </p>
 
-          <h4 data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+          <h4 data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
             Para tu hijo, tu eres <span>el primer vínculo.</span>
           </h4>
 
-          <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+          <p data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
             La creación de este vínculo requiere tiempo, dedicación y
             conocimiento. Necesitamos saber hacia dónde queremos ir, qué
             queremos construir con nuestro hijo, qué valores les queremos
@@ -62,7 +62,7 @@ const Manifesto = () => {
         </SectionManifesto>
 
         <SectionManifesto article="article2">
-          <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+          <p data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
             Te propongo acompañarte en esta reflexión mediante{" "}
             <Link to="/metodo" className={classes.blueText}>
               la Terapia Analítica
@@ -74,13 +74,13 @@ const Manifesto = () => {
             . Quiero ofrecerte un lugar de confianza y de confidencialidad.
           </p>
 
-          <h4 data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+          <h4 data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
             Un espacio comprensivo, sin juicio, donde podrás expresar tus ideas,
             tus dudas y tus miedos, y hablar sin tabúes de lo difícil que es ser
             madre.
           </h4>
 
-          <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+          <p data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
             A través de un trabajo de introspección, miraremos juntas lo que ya
             has vivido, para comprenderlo, reconocerlo y afrontarlo. Ir hacia el
             origen permite cuestionarse y así cambiar o mantener modos de
@@ -89,7 +89,7 @@ const Manifesto = () => {
         </SectionManifesto>
 
         <SectionManifesto article="article3">
-          <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+          <p data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
             Te ayudaré a reconocer lo que es esencial para ti y a tomar las
             decisiones que consideres correctas.
           </p>
@@ -99,7 +99,7 @@ const Manifesto = () => {
             para encontrarte y construir tu lugar en la familia.
           </h4>
 
-          <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+          <p data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
             La maternidad no es un instinto innato para todas las mujeres, la
             capacidad de relacionarnos con nuestro bebé se construye con el
             tiempo. Vamos a ver nacer tu conciencia como madre. Mi trabajo

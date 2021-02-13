@@ -42,8 +42,8 @@ const SectionMetodo = ({ article, children }) => {
       <div
         className={classes.image}
         data-sal="fade"
-        data-sal-delay="100"
-        data-sal-duration="2000"
+        data-sal-delay="-20"
+        data-sal-duration="1000"
       >
         <Image fluid={image.childImageSharp.fluid} alt={imageText} />
       </div>

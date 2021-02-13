@@ -12,12 +12,13 @@
 }
 
 .footer h3 {
-  font-size: 2.3rem;
+  font-size: 2.8rem;
   font-family: "SBK Light", sans-serif;
-  width: 85%;
-  line-height: 2.5rem;
+  width: 90%;
+  line-height: 2.9rem;
+  letter-spacing: -1.7px;
   font-weight: normal;
-  margin: 3rem auto;
+  margin: 3.5rem auto;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -27,14 +28,18 @@
   .footer {
     height: 80vh;
     margin: 15rem auto 2rem auto;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
   }
 
   .footer h3 {
     font-size: 3.2rem;
-    width: 93%;
+    width: 80%;
     line-height: 3.8rem;
     margin: 3rem auto;
+  }
+
+  .block {
+    display: block;
   }
 }
 
@@ -45,19 +50,10 @@
   }
 
   .footer h3 {
-    font-size: 3.2rem;
+    font-size: 3.6rem;
+    line-height: 4rem;
     width: 65%;
-    line-height: 4rem;
     margin: 3rem auto;
-  }
-}
-
-@media screen and (min-width: 1344px) and (min-height: 756px) {
-  .footer h3 {
-    font-size: 3.8rem;
-    width: 57%;
-    line-height: 4rem;
-    margin: 4.5rem auto;
   }
 }
 

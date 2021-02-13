@@ -1,6 +1,7 @@
 import React from "react"
-import BackgroundImage from "gatsby-background-image"
-import { graphql, useStaticQuery } from "gatsby"
+// import BackgroundImage from "gatsby-background-image"
+// import { graphql, useStaticQuery } from "gatsby"
+import backgroundImage from "../images/home-bottom.png"
 
 import classes from "./contact.module.css"
 
@@ -8,7 +9,7 @@ const ES = {
   content: (
     <div>
       <p className={classes.changing}>
-        Si tienes ganas de saber más no dudes en contactarme.
+        Si tienes ganas de saber más no dudes en contactarme..
       </p>
 
       <div className={classes.contactInfo}>
@@ -26,8 +27,11 @@ const CAT = {
         Si tens ganes de saber-ne més, no dubtis
         <span> en contactar-me! </span>
       </p>
-      <p>M: 665 335 599</p>
-      <p>info@laurezizine.com</p>
+
+      <div className={classes.contactInfo}>
+        <p>M: 665 335 599</p>
+        <p>info@laurezizine.com</p>
+      </div>
     </div>
   ),
 }
@@ -38,8 +42,11 @@ const FR = {
       <p className={classes.changing}>
         Si vous voulez en savoir plus, n'hésitez pas à<span> m'appeler </span>
       </p>
-      <p>Mob: 665 335 599</p>
-      <p>info@laurezizine.com</p>
+
+      <div className={classes.contactInfo}>
+        <p>Mob: 665 335 599</p>
+        <p>info@laurezizine.com</p>
+      </div>
     </div>
   ),
 }
@@ -56,32 +63,40 @@ const languageHandler = key => {
   }
 }
 
-const query = graphql`
-  {
-    backgrdImg: file(relativePath: { eq: "home-bottom.png" }) {
-      childImageSharp {
-        fixed(width: 2500) {
-          ...GatsbyImageSharpFixed_withWebp
-        }
-      }
-    }
-  }
-`
+// const query = graphql`
+//   {
+//     backgrdImg: file(relativePath: { eq: "home-bottom.png" }) {
+//       childImageSharp {
+//         fixed(width: 2500) {
+//           ...GatsbyImageSharpFixed_withWebp
+//         }
+//       }
+//     }
+//   }
+// `
 
 const HeaderContact = () => {
-  const { backgrdImg } = useStaticQuery(query)
+  // const { backgrdImg } = useStaticQuery(query)
 
   return (
-    <div data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
-      <BackgroundImage
+    <div data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
+      {/* <BackgroundImage
         Tag={`div`}
         fluid={backgrdImg.childImageSharp.fixed}
         className={classes.header}
+      > */}
+      <div
+        className={classes.header}
+        style={{
+          backgroundImage: `url(${backgroundImage})`,
+          backgroundSize: "cover",
+        }}
       >
         <div className={classes.header_content}>
           {languageHandler("content")}
         </div>
-      </BackgroundImage>
+      </div>
+      {/* </BackgroundImage> */}
     </div>
   )
 }

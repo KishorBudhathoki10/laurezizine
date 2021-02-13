@@ -16,10 +16,10 @@ export default function Home() {
       <Hero />
 
       <Segment>
-        <h3 data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+        <h3 data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
           El vincle de la maternitat
         </h3>
-        <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+        <p data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
           Quins valors té la relació amb els teus? Junts creareu la vostra
           pròpia història, plena d'experiències meravelloses.
         </p>
@@ -32,7 +32,7 @@ export default function Home() {
       <Link url="/cat/metode" text="SABER-NE MÉS" />
 
       <Segment>
-        <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+        <p data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
           “Sóc la Laure, terapeuta analítica. Fa deu anys vaig començar el
           projecte d'ajudar a les dones a construir-se com a mares.”
         </p>

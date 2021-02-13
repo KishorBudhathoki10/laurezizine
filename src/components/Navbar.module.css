@@ -8,6 +8,13 @@
   z-index: 999;
 }
 
+.flag {
+  display: inline-block;
+  width: 25px;
+  /* vertical-align: middle; */
+  margin: 8px;
+}
+
 .closed {
   top: -9rem;
 }
@@ -24,25 +31,28 @@
 }
 
 .Navbar h1 {
-  font-family: "Tiempos Light", sans-serif;
+  font-family: "SBK Regular", sans-serif;
   font-weight: normal;
   font-size: 2.7rem;
   cursor: pointer;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -1.5px;
 }
 
 .Navbar h1 span {
-  font-family: "Tiempos Italic", sans-serif;
+  font-family: "SBK Regular", sans-serif;
   font-weight: normal;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -1.5px;
 }
 
 .activeLang {
-  font-family: "BatonTurbo Medium", sans-serif;
+  font-family: "Tiempos Light", sans-serif;
+  font-weight: bold;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -54,12 +64,13 @@
 
 .NavDesk ul {
   list-style: none;
-  font-family: "Tiempos Light", sans-serif;
+  font-family: "SBK Regular", sans-serif;
   font-weight: 300;
   font-size: 2.7rem;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -1.5px;
 }
 
 .hide {
@@ -126,7 +137,7 @@
 }
 
 .NavMobClose .links ul li {
-  font-family: "Tiempos Light", sans-serif;
+  font-family: "SBK Regular", sans-serif;
   border-bottom: 1px solid #dedfdf;
   padding: 3.5rem;
   font-size: 2.4rem;
@@ -136,7 +147,7 @@
   font-size: 1.8rem;
   font-weight: 300;
   text-align: center;
-  padding-bottom: 2.5rem;
+  padding-bottom: 12rem;
 }
 
 .NavMobClose p span {
@@ -145,13 +156,13 @@
 
 @media screen and (min-width: 640px) {
   .Navbar {
-    padding: 2.7rem 0 1.8rem 0;
+    padding: 2rem 0 2.3rem 0;
     width: 90%;
   }
 
   .NavMobClose {
-    margin-top: 7.5rem;
-    height: calc(100vh - 8rem);
+    margin-top: 7rem;
+    height: calc(100vh - 7rem);
   }
 }
 
@@ -189,9 +200,9 @@
 
   .NavDesk p {
     font-size: 1.6rem;
-    margin-bottom: 2rem;
+    margin-bottom: -0.8rem;
     letter-spacing: 2px;
-    font-family: "BatonTurbo Regular", sans-serif;
+    font-family: "Tiempos Light", sans-serif;
     font-weight: normal;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -209,7 +220,7 @@
   }
 }
 
-@media screen and (min-width: 1344px) and (min-height: 756px) {
+@media screen and (min-width: 1344px) {
   .Navbar {
     width: 92%;
   }
@@ -220,7 +231,22 @@
   }
 
   .NavDesk .links li {
-    margin-left: 1.6rem;
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .Navbar {
+    width: 92%;
+  }
+
+  .NavDesk .container h1,
+  .NavDesk ul {
+    font-size: 3.2rem;
+  }
+
+  .NavDesk .links li {
+    margin-left: 2rem;
   }
 }
 
@@ -242,6 +268,7 @@
 
   .NavMobClose p {
     font-size: 1.4rem;
+    padding-bottom: 4rem;
   }
 
   .NavMobClose p span {

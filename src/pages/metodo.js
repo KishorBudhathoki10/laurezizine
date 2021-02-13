@@ -14,18 +14,18 @@ const metodo = () => {
       <HeaderMetodo />
 
       <Section article="article1">
-        <h4 data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
-          Terapia analítica
+        <h4 data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
+          Terapia Analítica
         </h4>
 
-        <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+        <p data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
           La Terapia Analítica es una terapia verbal, que permite reflexionar,
           elaborar, cuestionar. No hay ni malas ni buenas palabras. No se
           contempla plantear ningún juico. Es un tiempo y un espacio, que nos
           pertenece y que nos permite manejar nuestros sufrimientos.
         </p>
 
-        <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+        <p data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
           Esta terapia permite hacer un trabajo de introspección, desarrollar
           nuestros pensamientos, asociar ideas libremente y cuestionarnos en un
           intercambio «cara a cara», con la terapeuta. El hecho de expresar todo
@@ -33,7 +33,7 @@ const metodo = () => {
           exploración de tu psique y el conocimiento de ti mismo.
         </p>
 
-        <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+        <p data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
           Nos preguntamos cual es el origen de nuestros problemas para
           comprender sus mecanismos inconscientes y así poder identificar sus
           causas. Al analizarlas se reconocen, se comprenden, y podemos entonces
@@ -45,11 +45,11 @@ const metodo = () => {
       </Section>
 
       <Section article="article2">
-        <h4 data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
-          Orientar <span>la maternidad</span>
+        <h4 data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
+          Orientar <span>la Maternidad</span>
         </h4>
 
-        <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+        <p data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
           Gracias a la escucha, al asesoramiento y a la información, la
           orientación a la maternidad ayuda a reconocerse a sí misma en su papel
           de madre y de su rol en la familia. Es una orientación que permite
@@ -58,7 +58,7 @@ const metodo = () => {
           atención especial.
         </p>
 
-        <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+        <p data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
           La orientación a la maternidad lleva a la persona a establecer
           vínculos entre su conducta materna y los recuerdos de su propia
           infancia. Esto permite convertirte en la madre que deseas, dar a tus

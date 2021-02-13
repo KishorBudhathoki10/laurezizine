@@ -41,7 +41,7 @@ const ES = {
   article2: (
     <>
       <h2>
-        Acompañamiento <span>en la Maternidad</span>
+        Acompañamiento <span>a la Maternidad</span>
       </h2>
 
       <p>
@@ -137,7 +137,7 @@ const Works = () => {
     <section className={classes.worksContainer}>
       <div className={classes.works}>
         <article>
-          <div data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+          <div data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
             <Image fluid={image1.childImageSharp.fluid} alt="terapiaNew" />
           </div>
 
@@ -145,7 +145,7 @@ const Works = () => {
         </article>
 
         <article>
-          <div data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+          <div data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
             <Image fluid={image2.childImageSharp.fluid} alt="terapiaNew" />
           </div>
 

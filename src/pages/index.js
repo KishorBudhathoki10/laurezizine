@@ -18,11 +18,11 @@ export default function Home() {
 
       <Segment>
         <Link to="/manifesto">
-          <h3 data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+          <h3 data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
             El vínculo de la maternidad
           </h3>
         </Link>
-        <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+        <p data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
           Que valores tiene la relación con los tuyos? Juntos vais a crear
           vuestra propia historia, llena de experiencias maravillosas.
         </p>
@@ -35,7 +35,7 @@ export default function Home() {
       <LinkTwo url="/metodo" text="SABER MÁS" />
 
       <Segment>
-        <p data-sal="fade" data-sal-delay="100" data-sal-duration="2000">
+        <p data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
           “Soy Laure, terapeuta analítica. Hace diez años inicié el proyecto de
           ayudar a las mujeres a construirse como madres.”
         </p>

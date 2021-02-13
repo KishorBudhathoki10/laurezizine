@@ -1,7 +1,9 @@
 import React from "react"
-import Image from "gatsby-image"
-import BackgroundImage from "gatsby-background-image"
-import { useStaticQuery, graphql } from "gatsby"
+// import Image from "gatsby-image"
+// import BackgroundImage from "gatsby-background-image"
+// import { useStaticQuery, graphql } from "gatsby"
+import backgroundImage from "../images/backgroundMain.png"
+import profileImage from "../images/laure.png"
 
 import classes from "./hero.module.css"
 // import backgroundImage from "../images/backgroundMain.png"
@@ -14,25 +16,25 @@ import classes from "./hero.module.css"
 //   }
 // }
 
-const query = graphql`
-  {
-    profileImage: file(relativePath: { eq: "laure.png" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-    }
+// const query = graphql`
+//   {
+//     profileImage: file(relativePath: { eq: "laure.png" }) {
+//       childImageSharp {
+//         fluid {
+//           ...GatsbyImageSharpFluid_withWebp
+//         }
+//       }
+//     }
 
-    backgrdImg: file(relativePath: { eq: "backgroundMain.png" }) {
-      childImageSharp {
-        fixed(width: 2500) {
-          ...GatsbyImageSharpFixed_withWebp
-        }
-      }
-    }
-  }
-`
+//     backgrdImg: file(relativePath: { eq: "backgroundMain.png" }) {
+//       childImageSharp {
+//         fixed(width: 4500) {
+//           ...GatsbyImageSharpFixed_withWebp
+//         }
+//       }
+//     }
+//   }
+// `
 
 const ES = {
   greeting1: (
@@ -48,12 +50,7 @@ const ES = {
       <span>analítica</span>
     </p>
   ),
-  profession: (
-    <p>
-      <span>Terapeuta</span>
-      <span>Analitica</span>
-    </p>
-  ),
+  profession: <p>Terapeuta Analitica</p>,
 }
 
 const CAT = {
@@ -70,12 +67,7 @@ const CAT = {
       <span>analítica</span>
     </p>
   ),
-  profession: (
-    <p>
-      <span>Terapeuta</span>
-      <span>Analítica</span>
-    </p>
-  ),
+  profession: <p>Terapeuta Analítica</p>,
 }
 
 const FR = {
@@ -92,12 +84,7 @@ const FR = {
       <span>analytique</span>
     </p>
   ),
-  profession: (
-    <p>
-      <span>Thérapeute</span>
-      <span>Analytique</span>
-    </p>
-  ),
+  profession: <p>Thérapeute Analytique</p>,
 }
 
 const languageHandler = key => {
@@ -113,23 +100,23 @@ const languageHandler = key => {
 }
 
 const Hero = () => {
-  const data = useStaticQuery(query)
+  // const data = useStaticQuery(query)
 
-  const { backgrdImg, profileImage } = data
+  // const { backgrdImg, profileImage } = data
 
   return (
-    <BackgroundImage
-      Tag={`div`}
-      fluid={backgrdImg.childImageSharp.fixed}
-      className={classes.header}
-    >
-      {/* <div
+    // <BackgroundImage
+    //   Tag={`div`}
+    //   fluid={backgrdImg.childImageSharp.fixed}
+    //   className={classes.header}
+    // >
+    <div
       className={classes.header}
       style={{
         backgroundImage: `url(${backgroundImage})`,
         backgroundSize: "cover",
       }}
-    > */}
+    >
       <div className={classes.headerContainer}>
         <div className={classes.info}>
           <div className={classes.info__block}>
@@ -150,15 +137,15 @@ const Hero = () => {
         <div className={classes.laureImg}>
           <div className={classes.con}></div>
           <div className={classes.image}>
-            <Image
+            {/* <Image
               fluid={profileImage.childImageSharp.fluid}
               alt="Laure's Image"
-            />
+            /> */}
+            <img src={profileImage} alt="profile" />
           </div>
         </div>
       </div>
-      {/* </div> */}
-    </BackgroundImage>
+    </div>
   )
 }
 
