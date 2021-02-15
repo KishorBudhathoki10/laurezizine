@@ -14,7 +14,7 @@ const ES = {
   ),
   content1: (
     <div>
-      <p>Quieres tener un hijo.</p>
+      <p>¿Quieres tener un hijo?</p>
       <p>¡Estás embarazada! ¡Ya llegó el bebé!</p>
     </div>
   ),

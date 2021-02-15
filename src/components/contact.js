@@ -9,7 +9,7 @@ const ES = {
   content: (
     <div>
       <p className={classes.changing}>
-        Si tienes ganas de saber más no dudes en contactarme..
+        Si tienes ganas de saber más, no dudes en contactarme..
       </p>
 
       <div className={classes.contactInfo}>

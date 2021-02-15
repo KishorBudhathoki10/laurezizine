@@ -23,7 +23,7 @@ export default function Home() {
           </h3>
         </Link>
         <p data-sal="fade" data-sal-delay="-20" data-sal-duration="1000">
-          Que valores tiene la relación con los tuyos? Juntos vais a crear
+          ¿Que valores tiene la relación con los tuyos? Juntos vais a crear
           vuestra propia historia, llena de experiencias maravillosas.
         </p>
       </Segment>
