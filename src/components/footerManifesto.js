@@ -85,6 +85,7 @@ const FooterManifesto = () => {
       style={{
         backgroundImage: `url(${backgroundImage})`,
         backgroundColor: `#FFAE07`,
+        backgroundSize: "cover",
       }}
     >
       <div>

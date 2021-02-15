@@ -8,13 +8,6 @@
   z-index: 999;
 }
 
-.flag {
-  display: inline-block;
-  width: 25px;
-  /* vertical-align: middle; */
-  margin: 8px;
-}
-
 .closed {
   top: -9rem;
 }

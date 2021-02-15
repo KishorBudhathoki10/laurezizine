@@ -3,9 +3,6 @@ import { Link } from "gatsby"
 
 import classes from "./Navbar.module.css"
 import crossIcon from "../images/cross.webp"
-import FranceFlag from "../images/france.jpeg"
-import SpainFlag from "../images/spain.png"
-import Catalonia from "../images/catalonia.png"
 
 const Navbar = () => {
   const [scrollY, setScrollY] = useState(0)
@@ -135,26 +132,11 @@ const Navbar = () => {
 
     return (
       <p>
-        <span>
-          {createLink(
-            arr[0],
-            <img src={FranceFlag} alt="France Flag" className={classes.flag} />
-          )}
-        </span>
+        <span>{createLink(arr[0], "FR")}</span>
         {seperator}
-        <span>
-          {createLink(
-            arr[1],
-            <img src={Catalonia} alt="France Flag" className={classes.flag} />
-          )}
-        </span>
+        <span>{createLink(arr[1], "CAT")}</span>
         {seperator}
-        <span>
-          {createLink(
-            arr[2],
-            <img src={SpainFlag} alt="France Flag" className={classes.flag} />
-          )}
-        </span>
+        <span>{createLink(arr[2], "ES")}</span>
       </p>
     )
   }
@@ -186,7 +168,7 @@ const Navbar = () => {
           <div className={classes.container}>
             <Title />
 
-            {linkAccordingly("")}
+            {linkAccordingly("/")}
           </div>
 
           {navLinks(classes.links)}
