@@ -26,6 +26,7 @@ const ES = {
       </p>
     </div>
   ),
+  onlyMobile: "Manifiesto",
 }
 
 const CAT = {
@@ -36,7 +37,7 @@ const CAT = {
   ),
   content1: (
     <div>
-      <p>Vols tenir un fill.</p>
+      <p>Vols tenir un fill?</p>
       <p>Estàs embarassada! Ja arriba el bebè!</p>
     </div>
   ),
@@ -48,6 +49,7 @@ const CAT = {
       </p>
     </div>
   ),
+  onlyMobile: "Manifest",
 }
 
 const FR = {
@@ -58,7 +60,7 @@ const FR = {
   ),
   content1: (
     <div>
-      <p>Vous désirez avoir un enfant.</p>
+      <p>Vous désirez avoir un enfant?</p>
       <p>Vous êtes enceinte! Le bébé est là!</p>
     </div>
   ),
@@ -71,6 +73,7 @@ const FR = {
       </p>
     </div>
   ),
+  onlyMobile: "Manifiesto",
 }
 
 const languageHandler = key => {
@@ -110,7 +113,9 @@ const HeaderManifesto = () => {
       className={classes.header}
       style={{ backgroundImage: `url(${backgroundImage})` }}
     > */}
-      <h3 className={classes.onlyMobileHeader}>Manifiesto</h3>
+      <h3 className={classes.onlyMobileHeader}>
+        {languageHandler("onlyMobile")}
+      </h3>
 
       <div className={classes.header_wrapper}>
         {languageHandler("header")}

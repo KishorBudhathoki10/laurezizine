@@ -18,7 +18,7 @@ const ES = {
 }
 
 const CAT = {
-  header: <h2>Metodología</h2>,
+  header: <h2>Mètode</h2>,
   content1: (
     <div>
       <p>

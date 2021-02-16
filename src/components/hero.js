@@ -39,7 +39,7 @@ import classes from "./hero.module.css"
 const ES = {
   greeting1: (
     <p>
-      <span>Hola!</span>
+      <span>¡Hola!</span>
       <span>Soy Laure</span>
     </p>
   ),
