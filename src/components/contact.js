@@ -15,7 +15,7 @@ const ES = {
       <div className={classes.contactInfo}>
         <p>
           {" "}
-          <a href="https://wa.me/34607434477" target="_blank">
+          <a href="https://wa.me/34665335599" target="_blank">
             Mob: 665 335 599
           </a>
         </p>
@@ -38,7 +38,7 @@ const CAT = {
       <div className={classes.contactInfo}>
         <p>
           {" "}
-          <a href="https://wa.me/34607434477" target="_blank">
+          <a href="https://wa.me/34665335599" target="_blank">
             Mob: 665 335 599
           </a>
         </p>
@@ -60,7 +60,7 @@ const FR = {
       <div className={classes.contactInfo}>
         <p>
           {" "}
-          <a href="https://wa.me/34607434477" target="_blank">
+          <a href="https://wa.me/34665335599" target="_blank">
             Mob: 665 335 599
           </a>
         </p>
