@@ -13,8 +13,15 @@ const ES = {
       </p>
 
       <div className={classes.contactInfo}>
-        <p>M: 665 335 599</p>
-        <p>info@laurezizine.com</p>
+        <p>
+          {" "}
+          <a href="https://wa.me/34607434477" target="_blank">
+            Mob: 665 335 599
+          </a>
+        </p>
+        <p>
+          <a href="mailto:info@laurezizine.com">info@laurezizine.com</a>
+        </p>
       </div>
     </div>
   ),
@@ -29,8 +36,15 @@ const CAT = {
       </p>
 
       <div className={classes.contactInfo}>
-        <p>M: 665 335 599</p>
-        <p>info@laurezizine.com</p>
+        <p>
+          {" "}
+          <a href="https://wa.me/34607434477" target="_blank">
+            Mob: 665 335 599
+          </a>
+        </p>
+        <p>
+          <a href="mailto:info@laurezizine.com">info@laurezizine.com</a>
+        </p>
       </div>
     </div>
   ),
@@ -44,8 +58,15 @@ const FR = {
       </p>
 
       <div className={classes.contactInfo}>
-        <p>Mob: 665 335 599</p>
-        <p>info@laurezizine.com</p>
+        <p>
+          {" "}
+          <a href="https://wa.me/34607434477" target="_blank">
+            Mob: 665 335 599
+          </a>
+        </p>
+        <p>
+          <a href="mailto:info@laurezizine.com">info@laurezizine.com</a>
+        </p>
       </div>
     </div>
   ),
