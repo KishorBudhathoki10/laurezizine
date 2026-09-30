@@ -95,7 +95,7 @@ const FooterManifesto = () => {
 
         <div className={classes.special}>
           <h3>
-            <span className={classes.block}>M: 665 335 599</span>
+            <span className={classes.block}>M: 606 632 729</span>
             <span className={classes.block}>info@laurezizine.com</span>
           </h3>
         </div>
